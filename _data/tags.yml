@@ -1,6 +1,6 @@
 Jekyll:
   name: jekyll
-  description: jkeyll 정적 HTML 블로그
+  description: Jekyll 기반 정적 HTML 블로그
   cover: assets/images/octojekyll.png
 MySQL:
   name: mysql
