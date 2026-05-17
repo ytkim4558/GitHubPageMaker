@@ -12,24 +12,29 @@
         {% endif %}
     </div>
     <div class="site-nav-right">
-        {% assign language_url = '/en/' %}
-        {% assign language_label = 'EN' %}
+        {% assign ko_url = '/' %}
+        {% assign en_url = '/en/' %}
         {% if page.path contains 'en/' %}
-            {% assign language_url = '/' %}
-            {% assign language_label = '한국어' %}
             {% if page.path contains 'en/about/' %}
-                {% assign language_url = '/about/' %}
+                {% assign ko_url = '/about/' %}
+                {% assign en_url = '/en/about/' %}
             {% elsif page.path contains 'en/portfolio/' %}
-                {% assign language_url = '/portfolio/' %}
+                {% assign ko_url = '/portfolio/' %}
+                {% assign en_url = '/en/portfolio/' %}
             {% endif %}
         {% else %}
             {% if page.path contains 'about/' %}
-                {% assign language_url = '/en/about/' %}
+                {% assign ko_url = '/about/' %}
+                {% assign en_url = '/en/about/' %}
             {% elsif page.path contains 'portfolio/' %}
-                {% assign language_url = '/en/portfolio/' %}
+                {% assign ko_url = '/portfolio/' %}
+                {% assign en_url = '/en/portfolio/' %}
             {% endif %}
         {% endif %}
-        <a class="language-switch" href="{{ language_url }}" data-language-switch data-target-lang="{% if page.path contains 'en/' %}ko{% else %}en{% endif %}">{{ language_label }}</a>
+        <div class="language-switcher" aria-label="Language selector">
+            <a class="language-option {% unless page.path contains 'en/' %}is-active{% endunless %}" href="{{ ko_url }}" data-language-switch data-target-lang="ko">한국어</a>
+            <a class="language-option {% if page.path contains 'en/' %}is-active{% endif %}" href="{{ en_url }}" data-language-switch data-target-lang="en">EN</a>
+        </div>
         <div class="social-links">
             {% if site.facebook %}
             <a class="social-link social-link-fb"

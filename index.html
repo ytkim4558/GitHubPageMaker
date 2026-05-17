@@ -44,7 +44,6 @@ into the {body} of the default.hbs template -->
             <div class="profile-actions">
                 <a href="/profile/">Quick Profile</a>
                 <a href="/portfolio/">Portfolio</a>
-                <a href="/en/portfolio/">English</a>
                 <a href="https://github.com/ytkim4558/">GitHub</a>
                 <a href="https://www.linkedin.com/in/yongtak-kim-b7553727/">LinkedIn</a>
             </div>
@@ -56,16 +55,14 @@ into the {body} of the default.hbs template -->
                 <a href="{{ site.baseurl }}tags/">Browse by tags</a>
             </div>
             <div class="post-marquee-track">
-                {% for i in (1..2) %}
-                    {% for post in site.posts limit:8 %}
-                    <a class="post-marquee-card" href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
-                        {% if post.tags.size > 0 %}
-                        <span class="post-marquee-tag">#{{ post.tags | first | downcase }}</span>
-                        {% endif %}
-                        <strong>{{ post.title }}</strong>
-                        <small>{{ post.date | date: "%Y.%m.%d" }}</small>
-                    </a>
-                    {% endfor %}
+                {% for post in site.posts limit:8 %}
+                <a class="post-marquee-card" href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
+                    {% if post.tags.size > 0 %}
+                    <span class="post-marquee-tag">#{{ post.tags | first | downcase }}</span>
+                    {% endif %}
+                    <strong>{{ post.title }}</strong>
+                    <small>{{ post.date | date: "%Y.%m.%d" }}</small>
+                </a>
                 {% endfor %}
             </div>
         </section>
