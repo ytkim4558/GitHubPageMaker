@@ -1,5 +1,7 @@
 ## Jasper2
 
+> AI agents: read [`AGENTS.md`](AGENTS.md) first. It defines the source/publish repo split, Docker Jekyll build command, cover/linking rules, and cross-agent handoff rules for Claude, ChatGPT, Codex, other accounts, and later sessions.
+
 [![Build Status](https://travis-ci.org/jekyller/jasper2.svg?branch=master)](https://travis-ci.org/jekyller/jasper2)
 [![Ruby](https://img.shields.io/badge/ruby-2.4.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
 [![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
