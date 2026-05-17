@@ -76,6 +76,16 @@ Then commit and push both repositories.
 - The post should explain the trigger, failed or rejected options, final decision, exact verification, and any rule added to `AGENTS.md`.
 - Prefer publishing the workflow note near the actual code change so future agents can follow the decision trail.
 
+## Agent Handoff Rule
+
+- When work may be resumed by another AI agent, leave a concrete handoff note instead of relying on chat memory.
+- Use `AGENTS.md` for repo-level handoff rules and local Codex skills for reusable behavior across sessions.
+- Record source repo, generated/live repo, exact build command, publish command, verification command, and any CDN/cache delay.
+- Distinguish what is already committed/pushed from what is only local.
+- Include sensitive-data handling rules, especially for screenshots, local paths, tokens, private filenames, or raw session IDs.
+- If the handoff process itself becomes useful or repeatable, document it as an `AI Workflow` post.
+- Local reusable skill: `C:\Users\ytkim\.codex\skills\agent-handoff\SKILL.md`.
+
 ## Verification Checklist
 
 Check these after publishing:
