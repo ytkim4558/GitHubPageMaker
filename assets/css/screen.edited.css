@@ -378,6 +378,36 @@ td.code {
     font-weight: 700;
 }
 
+.language-switch {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    margin-right: 10px;
+    padding: 6px 12px;
+    border: 1px solid rgba(255,255,255,0.45);
+    border-radius: 999px;
+    color: #fff;
+    background: rgba(15,23,42,0.28);
+    box-shadow: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    backdrop-filter: blur(12px);
+}
+
+.language-switch:hover {
+    color: #111827;
+    background: rgba(255,255,255,0.9);
+}
+
+.site-nav-logo + .language-switch,
+.fixed-nav-active .language-switch {
+    border-color: rgba(15,23,42,0.16);
+    color: #111827;
+    background: rgba(255,255,255,0.86);
+}
+
 .portfolio-page .portfolio-gallery {
     display: grid;
     grid-auto-flow: column;
@@ -473,6 +503,13 @@ td.code {
     .portfolio-page .portfolio-floating-nav a {
         min-width: auto;
         white-space: nowrap;
+    }
+
+    .language-switch {
+        min-width: 44px;
+        margin-right: 8px;
+        padding: 5px 10px;
+        font-size: 1.1rem;
     }
 
     .portfolio-page .portfolio-gallery {

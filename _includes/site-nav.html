@@ -12,6 +12,24 @@
         {% endif %}
     </div>
     <div class="site-nav-right">
+        {% assign language_url = '/en/' %}
+        {% assign language_label = 'EN' %}
+        {% if page.path contains 'en/' %}
+            {% assign language_url = '/' %}
+            {% assign language_label = '한국어' %}
+            {% if page.path contains 'en/about/' %}
+                {% assign language_url = '/about/' %}
+            {% elsif page.path contains 'en/portfolio/' %}
+                {% assign language_url = '/portfolio/' %}
+            {% endif %}
+        {% else %}
+            {% if page.path contains 'about/' %}
+                {% assign language_url = '/en/about/' %}
+            {% elsif page.path contains 'portfolio/' %}
+                {% assign language_url = '/en/portfolio/' %}
+            {% endif %}
+        {% endif %}
+        <a class="language-switch" href="{{ language_url }}">{{ language_label }}</a>
         <div class="social-links">
             {% if site.facebook %}
             <a class="social-link social-link-fb"
