@@ -406,51 +406,68 @@ subclass: 'post page'
 
 ## 7.3 초기 안드로이드 사이드 프로젝트 (2016 ~ 2017)
 
-<details markdown="1">
-<summary>▶ 자세히 보기 — HotDealppom, BikeNavi, 그룹주소록 (시연 영상 + 스크린샷 포함)</summary>
+<details class="lazy-details">
+<summary>▶ 자세히 보기 — HotDealppom, BikeNavi, 그룹주소록 (시연 영상 + 스크린샷, 펼칠 때 로딩)</summary>
 
-모바일 개발 입문기에 만든 Android 사이드 프로젝트들.
+<div class="lazy-target"></div>
 
-### HotDealppom (핫딜뽐) — 사용자 관심사 기반 상품 추천 (2016.12 ~ 2017.06)
-- **기간**: 2016.12 ~ 2017.06 (설계 12주, 개발 8주)
-- **시스템 구성**: 안드로이드 앱 + 서버(상품 정보 수집/저장/분석)
-- **주요 기능**:
-  - 11번가, 쿠팡, 뽐뿌에서 유저 관심사 기반 상품 리스트 수집 후 추천
-  - 상품 항목 클릭 시 상세 화면 표시
-- **사용 기술**: Scrapy, Android, Volley, Google API, Firebase API, PHP, Nginx, Glide API, MariaDB, Hadoop, Flume, KoNLPy, Alhazmy13wordcloud
+<template>
+<p>모바일 개발 입문기에 만든 Android 사이드 프로젝트들.</p>
 
-{% include youtubePlayer.html id="VqLyBLSEtoQ" %}
+<h3>HotDealppom (핫딜뽐) — 사용자 관심사 기반 상품 추천 (2016.12 ~ 2017.06)</h3>
+<ul>
+<li><b>기간</b>: 2016.12 ~ 2017.06 (설계 12주, 개발 8주)</li>
+<li><b>시스템 구성</b>: 안드로이드 앱 + 서버(상품 정보 수집/저장/분석)</li>
+<li><b>주요 기능</b>: 11번가/쿠팡/뽐뿌에서 유저 관심사 기반 상품 리스트 수집·추천 / 상품 클릭 시 상세 화면</li>
+<li><b>사용 기술</b>: Scrapy, Android, Volley, Google API, Firebase API, PHP, Nginx, Glide API, MariaDB, Hadoop, Flume, KoNLPy</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VqLyBLSEtoQ" frameborder="0" allowfullscreen></iframe>
+<p>
+<img src="/assets/portfolio/image025.png" alt="hotdealppom1">
+<img src="/assets/portfolio/image026.png" alt="hotdealppom2">
+<img src="/assets/portfolio/image027.png" alt="hotdealppom3">
+<img src="/assets/portfolio/image028.png" alt="hotdealppom4">
+</p>
 
-![hotdealppom1]({{"/assets/portfolio/image025.png"}})
-![hotdealppom2]({{"/assets/portfolio/image026.png"}})
-![hotdealppom3]({{"/assets/portfolio/image027.png"}})
-![hotdealppom4]({{"/assets/portfolio/image028.png"}})
+<h3>BikeNavi — Android 자전거 네비게이션 (2016.09 ~ 2016.11, 10주)</h3>
+<ul>
+<li><b>사용 기술</b>: Android, Volley, Google API, Google Maps API, Tmap API, Facebook API, 카카오 서비스 API, Glide API, PHP, MySQL</li>
+</ul>
+<p><b>시연 영상</b></p>
+<p>로그인:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/twEFkv44Kwk" frameborder="0" allowfullscreen></iframe>
+<p>메인 기능:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LR_fLXNpb2Y" frameborder="0" allowfullscreen></iframe>
+<p>실제 라이딩에서 어플 활용:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NqDWp3VmwBI" frameborder="0" allowfullscreen></iframe>
+<p>
+<img src="/assets/portfolio/image019.jpg" alt="bikenavi1">
+<img src="/assets/portfolio/image020.png" alt="bikenavi2">
+<img src="/assets/portfolio/image021.png" alt="bikenavi3">
+<img src="/assets/portfolio/image022.png" alt="bikenavi4">
+<img src="/assets/portfolio/image023.png" alt="bikenavi5">
+</p>
 
-### BikeNavi — Android 자전거 네비게이션 (2016.09 ~ 2016.11, 10주)
-- **사용 기술**: Android, Volley, Google API, Google Maps API, Tmap API, Facebook API, 카카오 서비스 API, Glide API, PHP, MySQL
-
-**시연 영상**
-
-로그인:
-{% include youtubePlayer.html id="twEFkv44Kwk" %}
-
-메인 기능:
-{% include youtubePlayer.html id="LR_fLXNpb2Y" %}
-
-실제 라이딩에서 어플 활용:
-{% include youtubePlayer.html id="NqDWp3VmwBI" %}
-
-![bikenavi1]({{"/assets/portfolio/image019.jpg"}})
-![bikenavi2]({{"/assets/portfolio/image020.png"}})
-![bikenavi3]({{"/assets/portfolio/image021.png"}})
-![bikenavi4]({{"/assets/portfolio/image022.png"}})
-![bikenavi5]({{"/assets/portfolio/image023.png"}})
-
-### 그룹주소록 — 그룹 단위로 관리할 수 있는 안드로이드 연락처 어플
-
-{% include youtubePlayer.html id="60rDdIGMNBw" %}
+<h3>그룹주소록 — 그룹 단위로 관리할 수 있는 안드로이드 연락처 어플</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/60rDdIGMNBw" frameborder="0" allowfullscreen></iframe>
+</template>
 
 </details>
+
+<script>
+(function(){
+  document.querySelectorAll('details.lazy-details').forEach(function(d){
+    var tpl = d.querySelector('template');
+    var target = d.querySelector('.lazy-target');
+    if (!tpl || !target) return;
+    d.addEventListener('toggle', function(){
+      if (d.open && !target.hasChildNodes()) {
+        target.appendChild(tpl.content.cloneNode(true));
+      }
+    });
+  });
+})();
+</script>
 
 ----------
 
