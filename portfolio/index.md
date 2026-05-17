@@ -84,7 +84,7 @@ subclass: 'post page'
 <h1 id="사이드프로젝트요약">3. 사이드 프로젝트 요약</h1>
 
 - **claude-toolkit** : Claude Code 커스텀 스킬·도구 모음 (2026.05~)
-- **claude-resume** : Claude Code 세션 피커 TUI (2026.05)
+- **claude-resume** : LLM 요약 기반 Claude Code 세션 피커 TUI (2026.05)
 - **codex-resume** : OpenAI Codex CLI 세션 검색/재개 도구 (2026.05)
 - 초기 안드로이드 사이드 프로젝트 (2016~2017) : HotDealppom, BikeNavi, 그룹주소록 등
 
@@ -366,13 +366,14 @@ subclass: 'post page'
 
 <h1 id="사이드프로젝트기술서">7. 사이드프로젝트 기술서</h1> 
 
-## 7.1 claude-resume — Claude Code 세션 피커 (2026.05)
+## 7.1 claude-resume — LLM 요약 기반 Claude Code 세션 피커 (2026.05)
 ### 기간 : 2026.05.16 ~ 2026.05.17 (2일)
-### Claude Code (Anthropic) 의 이전 대화 세션을 빠르게 찾아 이어갈 수 있는 두-패널 인터랙티브 TUI 도구
+### Claude Code (Anthropic) 의 과거 대화 히스토리를 LLM 요약으로 빠르게 찾고 이어갈 수 있는 두-패널 인터랙티브 TUI 도구
 
 ### 주요 기능
 - 좌측 세션 리스트, 우측 전체 대화를 동시에 보여주는 두-패널 UI
-- 백그라운드 스레드에서 `claude -p` subprocess 를 호출해 LLM 요약 비동기 생성, 결과 캐시
+- 백그라운드 스레드에서 `claude -p` subprocess 를 호출해 과거 세션별 핵심 내용을 LLM 으로 요약하고 결과 캐시
+- 긴 대화 파일을 직접 열지 않아도 "어떤 작업을 했던 세션인지" 요약만 보고 바로 찾을 수 있는 검색/탐색 UX 제공
 - 정렬·표시용 timestamp 가 파일 mtime 이 아닌 JSONL 내부 메시지 timestamp 기준 → 요약 생성이 정렬 순서에 영향 주지 않음
 - 자기 호출 세션 자동 필터 (요약 프롬프트에 마커 삽입으로 재귀 방지)
 - Windows CMD / PowerShell 양쪽 호환, UTF-8 강제로 한글 인코딩 보존
