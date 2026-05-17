@@ -407,13 +407,48 @@ subclass: 'post page'
 ## 7.3 초기 안드로이드 사이드 프로젝트 (2016 ~ 2017)
 
 <details markdown="1">
-<summary>▶ 자세히 보기 — HotDealppom, BikeNavi, 그룹주소록</summary>
+<summary>▶ 자세히 보기 — HotDealppom, BikeNavi, 그룹주소록 (시연 영상 + 스크린샷 포함)</summary>
 
 모바일 개발 입문기에 만든 Android 사이드 프로젝트들.
 
-- **HotDealppom (핫딜뽐)** (2016.12 ~ 2017.06) : 11번가/쿠팡/뽐뿌에서 사용자 관심사 기반 상품 추천 안드로이드 앱. 서버에서 상품 정보 수집/분석. (Android, Scrapy, PHP, MariaDB, Hadoop, Flume, KoNLPy)
-- **BikeNavi** (2016.09 ~ 2016.11, 10주) : Android 자전거 네비게이션 앱. (Google Maps API, Tmap API, 카카오 서비스 API, PHP, MySQL)
-- **그룹주소록** : 그룹 단위로 관리할 수 있는 안드로이드 연락처 어플.
+### HotDealppom (핫딜뽐) — 사용자 관심사 기반 상품 추천 (2016.12 ~ 2017.06)
+- **기간**: 2016.12 ~ 2017.06 (설계 12주, 개발 8주)
+- **시스템 구성**: 안드로이드 앱 + 서버(상품 정보 수집/저장/분석)
+- **주요 기능**:
+  - 11번가, 쿠팡, 뽐뿌에서 유저 관심사 기반 상품 리스트 수집 후 추천
+  - 상품 항목 클릭 시 상세 화면 표시
+- **사용 기술**: Scrapy, Android, Volley, Google API, Firebase API, PHP, Nginx, Glide API, MariaDB, Hadoop, Flume, KoNLPy, Alhazmy13wordcloud
+
+{% include youtubePlayer.html id="VqLyBLSEtoQ" %}
+
+![hotdealppom1]({{"/assets/portfolio/image025.png"}})
+![hotdealppom2]({{"/assets/portfolio/image026.png"}})
+![hotdealppom3]({{"/assets/portfolio/image027.png"}})
+![hotdealppom4]({{"/assets/portfolio/image028.png"}})
+
+### BikeNavi — Android 자전거 네비게이션 (2016.09 ~ 2016.11, 10주)
+- **사용 기술**: Android, Volley, Google API, Google Maps API, Tmap API, Facebook API, 카카오 서비스 API, Glide API, PHP, MySQL
+
+**시연 영상**
+
+로그인:
+{% include youtubePlayer.html id="twEFkv44Kwk" %}
+
+메인 기능:
+{% include youtubePlayer.html id="LR_fLXNpb2Y" %}
+
+실제 라이딩에서 어플 활용:
+{% include youtubePlayer.html id="NqDWp3VmwBI" %}
+
+![bikenavi1]({{"/assets/portfolio/image019.jpg"}})
+![bikenavi2]({{"/assets/portfolio/image020.png"}})
+![bikenavi3]({{"/assets/portfolio/image021.png"}})
+![bikenavi4]({{"/assets/portfolio/image022.png"}})
+![bikenavi5]({{"/assets/portfolio/image023.png"}})
+
+### 그룹주소록 — 그룹 단위로 관리할 수 있는 안드로이드 연락처 어플
+
+{% include youtubePlayer.html id="60rDdIGMNBw" %}
 
 </details>
 
