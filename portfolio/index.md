@@ -405,11 +405,17 @@ subclass: 'post page'
 - [코드 리포 + 위키](https://github.com/ytkim4558/claude-toolkit)
 
 ## 7.3 초기 안드로이드 사이드 프로젝트 (2016 ~ 2017)
-모바일 개발 입문기에 만든 Android 사이드 프로젝트들. 자세한 시연 영상/스크린샷은 [github.com/ytkim4558](https://github.com/ytkim4558) 의 옛 리포 참고.
+
+<details markdown="1">
+<summary>▶ 자세히 보기 — HotDealppom, BikeNavi, 그룹주소록</summary>
+
+모바일 개발 입문기에 만든 Android 사이드 프로젝트들.
 
 - **HotDealppom (핫딜뽐)** (2016.12 ~ 2017.06) : 11번가/쿠팡/뽐뿌에서 사용자 관심사 기반 상품 추천 안드로이드 앱. 서버에서 상품 정보 수집/분석. (Android, Scrapy, PHP, MariaDB, Hadoop, Flume, KoNLPy)
 - **BikeNavi** (2016.09 ~ 2016.11, 10주) : Android 자전거 네비게이션 앱. (Google Maps API, Tmap API, 카카오 서비스 API, PHP, MySQL)
 - **그룹주소록** : 그룹 단위로 관리할 수 있는 안드로이드 연락처 어플.
+
+</details>
 
 ----------
 
