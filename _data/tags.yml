@@ -14,3 +14,7 @@ ANDROID:
   name: android
   description: android 앱 개발하면서 알아낸 정보들
   cover: assets/images/android.png
+AI-WORKFLOW:
+  name: ai-workflow
+  description: AI 코딩 에이전트와 함께 만든 도구, 워크플로, 설계 결정 기록
+  cover: assets/images/blog-cover.jpg
