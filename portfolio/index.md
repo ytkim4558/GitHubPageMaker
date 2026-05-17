@@ -17,6 +17,8 @@ subclass: 'post page'
 - [5. 보유기술](#보유기술)
 - [6. 경력기술서](#경력기술서)
 - [7. 사이드프로젝트 기술서](#사이드프로젝트기술서)
+    - 7.4 claude-resume (Claude Code 세션 피커 TUI)
+    - 7.5 claude-toolkit (Claude Code 워크플로 스킬 모음)
 - [8. 자격 사항](#자격사항)
 - [9. 언어 및 병역사항](#언어및병역사항)
 - [10. 수상 경력](#수상경력)
@@ -79,6 +81,8 @@ subclass: 'post page'
 
 <h1 id="핵심역량">4. 핵심역량</h1>
 
+- **Claude Code, Claude API 를 이용한 AI 협업 워크플로 설계 및 자체 도구 개발 경험** (TUI 세션 피커, 커스텀 스킬 모음 등)
+- **AI 보조 시스템 디버깅 자동화** — Windows Event Log, BSOD 미니덤프 분석을 LLM 지원으로 단축
 - Android 어플 개발 및 상용화 
 - iOS 어플 개발 및 상용화
 - MySQL/MariaDB, Android, Apache 웹서버를 연계한 프로젝트 경험 보유
@@ -334,6 +338,46 @@ subclass: 'post page'
 ![hotdealppom2]({{"/assets/portfolio/image026.png"}})
 ![hotdealppom3]({{"/assets/portfolio/image027.png"}})
 ![hotdealppom4]({{"/assets/portfolio/image028.png"}})
+
+## 7.4 claude-resume — Claude Code 세션 피커 (2026.05)
+### 기간 : 2026.05.16 ~ 2026.05.17 (2일)
+### Claude Code (Anthropic) 의 이전 대화 세션을 빠르게 찾아 이어갈 수 있는 두-패널 인터랙티브 TUI 도구
+
+### 주요 기능
+- 좌측 세션 리스트, 우측 전체 대화를 동시에 보여주는 두-패널 UI
+- 백그라운드 스레드에서 `claude -p` subprocess 를 호출해 LLM 요약 비동기 생성, 결과 캐시
+- 정렬·표시용 timestamp 가 파일 mtime 이 아닌 JSONL 내부 메시지 timestamp 기준 → 요약 생성이 정렬 순서에 영향 주지 않음
+- 자기 호출 세션 자동 필터 (요약 프롬프트에 마커 삽입으로 재귀 방지)
+- Windows CMD / PowerShell 양쪽 호환, UTF-8 강제로 한글 인코딩 보존
+
+### 설계 결정
+- 별도 LLM API 키 없이 Claude Code 자체를 subprocess 로 호출 → 추가 비용 0
+- Textual (Python) 으로 모던 TUI 구성, 메모리/스레드 안전한 UI 갱신
+- 세션 핸드오프는 임시 파일 경유 (TUI 가 stdout 점유하는 문제 회피)
+
+### 사용 기술
+- Python 3.13, Textual 8.x, PowerShell, CMD 배치, subprocess, ThreadPoolExecutor, JSONL 파싱
+
+### 링크
+- [코드 리포](https://github.com/ytkim4558/claude-resume)
+- [상세 설계 문서](https://github.com/ytkim4558/claude-toolkit/blob/main/docs/tools/claude-resume.md)
+
+## 7.5 claude-toolkit — Claude Code 워크플로 스킬 모음 (2026.05~)
+### 반복되는 작업을 Claude Code 의 자체 스킬로 묶어 재사용 가능하게 만든 도구 모음
+
+### 포함된 스킬
+- **linkedin-update** : LinkedIn 포스트 / 프로필 섹션 초안을 한·영 양식으로 생성하고 복붙 가능한 마크다운 + 게시 체크리스트로 출력. 컨텐츠 자동화의 현실적 제약(LinkedIn API 권한 제한) 을 인정하고 "준비물 차려서 손에 쥐어주는" 워크플로로 설계
+- **firefly-prompt** : Adobe Firefly 가 잘 알아듣는 영문 프롬프트(주제 + 스타일 + 구도 + 조명) 로 변환. 부정 표현 약점, 30단어 제한 등 모델 특성을 패턴화
+
+### 설계 원칙
+- API 가 닫혀있거나 권한이 비싼 영역(LinkedIn, Adobe Enterprise)에는 자동 게시 시도 대신 "고품질 초안 + 게시 체크리스트" 패턴으로 우회
+- 본인 메모리 시스템과 연계해 본명/필명 채널별 톤·용어 자동 분리
+
+### 사용 기술
+- Claude Code SKILL 정의 (마크다운 + YAML 메타데이터), AskUserQuestion, 메모리 연동
+
+### 링크
+- [코드 리포 + 위키](https://github.com/ytkim4558/claude-toolkit)
 
 ----------
 
