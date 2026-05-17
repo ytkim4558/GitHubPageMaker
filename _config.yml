@@ -27,10 +27,10 @@ url: https://ytkim4558.github.io
 baseurl: /
 
 # Website info
-title: YongTak IT Blog
+title: Yongtak Kim Engineering Notes
 # 자신의 blog title.
 
-description: Development & Technical Training
+description: Cloud Analytics, Data Platform, and AI Workflow
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
 cover: assets/images/blog-cover.jpg

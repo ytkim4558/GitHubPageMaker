@@ -40,6 +40,14 @@ subclass: 'post page portfolio-page'
   <a href="#자기소개서">About</a>
 </nav>
 
+<aside class="portfolio-floating-nav" aria-label="Portfolio quick navigation">
+  <a href="#profile">Profile</a>
+  <a href="#경력요약">Experience</a>
+  <a href="#사이드프로젝트기술서">AI Tools</a>
+  <a href="#자격사항">Certs</a>
+  <a href="#profile">Top</a>
+</aside>
+
 
 <h1 id="profile">1. 프로필</h1>
 
