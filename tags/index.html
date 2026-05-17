@@ -1,0 +1,32 @@
+---
+layout: page
+current: tags
+cover:  assets/images/blog-cover.jpg
+title: Tags
+navigation: true
+class: page-template
+subclass: 'post page tags-page'
+---
+
+<section class="tags-hero">
+  <p class="portfolio-eyebrow">Topic Index</p>
+  <h2>태그별로 글을 찾아보기</h2>
+  <p>AI Workflow, Jekyll, Git, MySQL, Android 등 주제별 글 모음으로 바로 이동합니다.</p>
+</section>
+
+<div class="tag-grid">
+{% for item in site.data.tags %}
+  {% assign tag = item[1] %}
+  {% assign count = 0 %}
+  {% for post in site.posts %}
+    {% if post.tags contains tag.name %}
+      {% assign count = count | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+  <a class="tag-card" href="{{ site.baseurl }}tag/{{ tag.name }}/">
+    <span class="tag-card-name">#{{ tag.name }}</span>
+    <span class="tag-card-count">{{ count }} posts</span>
+    <span class="tag-card-description">{{ tag.description }}</span>
+  </a>
+{% endfor %}
+</div>

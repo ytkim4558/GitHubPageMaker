@@ -29,7 +29,7 @@
                 {% assign language_url = '/en/portfolio/' %}
             {% endif %}
         {% endif %}
-        <a class="language-switch" href="{{ language_url }}">{{ language_label }}</a>
+        <a class="language-switch" href="{{ language_url }}" data-language-switch data-target-lang="{% if page.path contains 'en/' %}ko{% else %}en{% endif %}">{{ language_label }}</a>
         <div class="social-links">
             {% if site.facebook %}
             <a class="social-link social-link-fb"

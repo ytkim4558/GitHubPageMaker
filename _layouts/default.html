@@ -115,6 +115,52 @@
     <script src="{{ site.baseurl }}assets/js/infinitescroll.js"></script>
     {% endif %}
 
+    <script>
+      (function() {
+        var languageSwitch = document.querySelector('[data-language-switch]');
+        if (languageSwitch) {
+          languageSwitch.addEventListener('click', function() {
+            localStorage.setItem('site-language', languageSwitch.getAttribute('data-target-lang') || 'ko');
+          });
+        }
+
+        var preferredLanguage = localStorage.getItem('site-language');
+        if (preferredLanguage === 'en') {
+          var map = {
+            '/': '/en/',
+            '/about/': '/en/about/',
+            '/portfolio/': '/en/portfolio/'
+          };
+          document.querySelectorAll('.site-nav a, .home-profile-hero a, .profile-actions a').forEach(function(link) {
+            var href = link.getAttribute('href');
+            if (map[href]) link.setAttribute('href', map[href]);
+          });
+        } else if (preferredLanguage === 'ko') {
+          var reverseMap = {
+            '/en/': '/',
+            '/en/about/': '/about/',
+            '/en/portfolio/': '/portfolio/'
+          };
+          document.querySelectorAll('.site-nav a, .home-profile-hero a, .profile-actions a').forEach(function(link) {
+            var href = link.getAttribute('href');
+            if (reverseMap[href]) link.setAttribute('href', reverseMap[href]);
+          });
+        }
+
+        var targets = document.querySelectorAll('.portfolio-page .portfolio-hero, .portfolio-page .portfolio-metrics div');
+        if (!targets.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        targets.forEach(function(target) {
+          target.addEventListener('pointermove', function(event) {
+            var rect = target.getBoundingClientRect();
+            var x = ((event.clientX - rect.left) / rect.width) * 100;
+            var y = ((event.clientY - rect.top) / rect.height) * 100;
+            target.style.setProperty('--cursor-x', x.toFixed(2) + '%');
+            target.style.setProperty('--cursor-y', y.toFixed(2) + '%');
+          });
+        });
+      })();
+    </script>
+
 
     <!-- Add Google Analytics  -->
     {% include analytics.html %}

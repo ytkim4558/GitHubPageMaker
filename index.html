@@ -30,6 +30,46 @@ into the {body} of the default.hbs template -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
 
+        <section class="home-profile-hero">
+            <p class="profile-eyebrow">Yongtak Kim · AWS CSE / OpenSearch SME</p>
+            <h2>고객 트러블슈팅과 AI 지원 워크플로를 도구로 만드는 엔지니어</h2>
+            <p>
+                OpenSearch 고객 이슈 분석, 분석 워크로드 지원, MCP 기반 support-agent,
+                Slack bot, case aging triage, 응답 검증·이슈 재현 자동화에 관심을 두고 작업합니다.
+            </p>
+            <p class="profile-en">
+                AWS Cloud Support Engineer and OpenSearch SME focused on customer troubleshooting,
+                analytics support, and AI-assisted support engineering workflows.
+            </p>
+            <div class="profile-actions">
+                <a href="/profile/">Quick Profile</a>
+                <a href="/portfolio/">Portfolio</a>
+                <a href="/en/portfolio/">English</a>
+                <a href="https://github.com/ytkim4558/">GitHub</a>
+                <a href="https://www.linkedin.com/in/yongtak-kim-b7553727/">LinkedIn</a>
+            </div>
+        </section>
+
+        <section class="post-marquee" aria-label="Featured posts">
+            <div class="post-marquee-header">
+                <span>Latest Topics</span>
+                <a href="{{ site.baseurl }}tags/">Browse by tags</a>
+            </div>
+            <div class="post-marquee-track">
+                {% for i in (1..2) %}
+                    {% for post in site.posts limit:8 %}
+                    <a class="post-marquee-card" href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
+                        {% if post.tags.size > 0 %}
+                        <span class="post-marquee-tag">#{{ post.tags | first | downcase }}</span>
+                        {% endif %}
+                        <strong>{{ post.title }}</strong>
+                        <small>{{ post.date | date: "%Y.%m.%d" }}</small>
+                    </a>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        </section>
+
         <div class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             {%  include post-card.html %}

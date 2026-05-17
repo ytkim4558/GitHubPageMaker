@@ -52,6 +52,17 @@ into the {body} of the default.hbs template -->
                 </div>
             </section>
 
+            {% if page.tags.size > 0 %}
+            <section class="post-tag-panel" aria-label="Post tags">
+                <span class="post-tag-panel-label">Related tags</span>
+                <div class="post-tag-list">
+                    {% for tag in page.tags %}
+                        <a href="{{ site.baseurl }}tag/{{ tag | downcase | replace: ' ', '-' }}/">#{{ tag | downcase }}</a>
+                    {% endfor %}
+                </div>
+            </section>
+            {% endif %}
+
             <!--&lt;!&ndash; Email subscribe form at the bottom of the page &ndash;&gt;-->
             <!--{% if site.subscribers %}-->
                 <!--<section class="subscribe-form">-->
