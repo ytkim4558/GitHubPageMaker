@@ -50,7 +50,7 @@ into the {body} of the default.hbs template -->
             </div>
         </section>
 
-        <section class="post-marquee" aria-label="Featured posts">
+        <section id="engineering-notes" class="post-marquee" aria-label="Featured posts">
             <div class="post-marquee-header">
                 <span>Latest Topics</span>
                 <a href="{{ site.baseurl }}tags/">Browse by tags</a>
@@ -74,7 +74,7 @@ into the {body} of the default.hbs template -->
             <div>
                 <p class="profile-eyebrow">Ask this profile</p>
                 <h2>김용탁에 대해 궁금한 점을 물어보세요</h2>
-                <p>정적 사이트에서 동작하는 안전한 프로필 어시스턴트입니다. API 키 없이, 공개 프로필에 적힌 범위 안에서만 답합니다.</p>
+                <p>공개 프로필에 적힌 범위 안에서만 답하는 안전한 프로필 어시스턴트입니다. LLM 백엔드는 별도 Worker에 두고, 없을 때는 정적 답변으로 동작합니다.</p>
             </div>
             <div class="profile-assistant-box">
                 <div class="profile-assistant-prompts">
@@ -91,7 +91,7 @@ into the {body} of the default.hbs template -->
             </div>
         </section>
 
-        <div class="post-feed">
+        <div id="latest-posts" class="post-feed">
             <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
             {%  include post-card.html %}
         </div>

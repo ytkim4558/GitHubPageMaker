@@ -32,7 +32,7 @@ subclass: 'post page profile-page'
   <div>
     <p class="profile-eyebrow">Ask this profile</p>
     <h2>이 프로필에 대해 질문하기</h2>
-    <p>공개 프로필에 적힌 범위 안에서만 답하는 로컬 프로필 어시스턴트입니다. 실제 LLM API 키는 브라우저에 노출하지 않습니다.</p>
+    <p>공개 프로필에 적힌 범위 안에서만 답하는 프로필 어시스턴트입니다. 실제 LLM API 키는 브라우저에 노출하지 않고, 백엔드가 없을 때는 정적 답변으로 동작합니다.</p>
   </div>
   <div class="profile-assistant-box">
     <div class="profile-assistant-prompts">
@@ -97,9 +97,9 @@ subclass: 'post page profile-page'
     <strong>linkedin-posting-mcp</strong>
     <span>승인 기반 LinkedIn posting workflow용 로컬 MCP 서버</span>
   </a>
-  <a href="/tags/">
+  <a href="/#engineering-notes">
     <strong>Engineering Notes</strong>
-    <span>AI Workflow, Jekyll, Git, MySQL, Android 글 모음</span>
+    <span>홈의 슬라이드 카드에서 AI Workflow와 최근 글을 바로 보기</span>
   </a>
 </section>
 

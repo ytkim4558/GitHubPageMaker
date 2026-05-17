@@ -33,6 +33,10 @@ title: Yongtak Kim Engineering Notes
 description: Cloud Analytics, Data Platform, and AI Workflow
 # blog home에 표시될 blog에 대한 전반적인 설명.
 
+profile_assistant_api:
+# Optional Cloudflare Worker base URL for the profile assistant.
+# Keep empty to use the static local fallback only.
+
 cover: assets/images/blog-cover.jpg
 # blog home에 표시될 blog cover image.
 
