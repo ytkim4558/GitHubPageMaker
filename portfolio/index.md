@@ -6,27 +6,39 @@ title: Portfolio
 navigation: true
 logo: 'assets/images/ghost.png'
 class: page-template
-subclass: 'post page'
+subclass: 'post page portfolio-page'
 ---
 
-목차
-- [1. 프로필](#profile)
-- [2. 경력 요약](#경력요약)
-- [3. 사이드 프로젝트 요약](#사이드프로젝트요약)
-- [4. 핵심역량](#핵심역량)
-- [5. 보유기술](#보유기술)
-- [6. 경력기술서](#경력기술서)
-- [7. 사이드프로젝트 기술서](#사이드프로젝트기술서)
-    - 7.1 claude-resume (Claude Code 세션 피커 TUI)
-    - 7.2 claude-toolkit (Claude Code 워크플로 스킬 모음)
-    - 7.3 codex-resume (OpenAI Codex CLI 세션 검색/재개 도구)
-    - 7.4 초기 안드로이드 사이드 프로젝트 (2016~2017)
-- [8. 자격 사항](#자격사항)
-- [9. 언어 및 병역사항](#언어및병역사항)
-- [10. 수상 경력](#수상경력)
-- [11. 학력](#학력)
-- [12. 학술 및 연구활동](#학술및연구활동)
-- [13. 자기소개서](#자기소개서)
+<section class="portfolio-hero">
+  <p class="portfolio-eyebrow">Cloud Analytics · AI Workflow · Data Platform</p>
+  <h2>분산 데이터 시스템을 운영하고, 반복되는 문제를 도구로 줄이는 엔지니어</h2>
+  <p>
+    AWS Analytics 기술 지원, 엔터프라이즈 데이터 플랫폼 구축, Android/iOS 개발 경험을 기반으로
+    최근에는 Claude Code와 OpenAI Codex CLI를 활용한 세션 복구·요약·자동화 워크플로를 직접 만들고 있습니다.
+  </p>
+  <div class="portfolio-actions">
+    <a href="https://github.com/ytkim4558/">GitHub</a>
+    <a href="https://www.linkedin.com/in/yongtak-kim-b7553727/">LinkedIn</a>
+    <a href="https://github.com/ytkim4558/claude-toolkit">Resume Tools</a>
+  </div>
+</section>
+
+<section class="portfolio-metrics">
+  <div><strong>4+ yrs</strong><span>AWS Analytics Support</span></div>
+  <div><strong>10+ yrs</strong><span>Software / Data Platform</span></div>
+  <div><strong>2026</strong><span>AI Workflow Tooling</span></div>
+</section>
+
+<nav class="portfolio-toc">
+  <a href="#profile">Profile</a>
+  <a href="#경력요약">Experience</a>
+  <a href="#사이드프로젝트요약">Projects</a>
+  <a href="#핵심역량">Strengths</a>
+  <a href="#보유기술">Skills</a>
+  <a href="#사이드프로젝트기술서">AI Tools</a>
+  <a href="#자격사항">Certifications</a>
+  <a href="#자기소개서">About</a>
+</nav>
 
 
 <h1 id="profile">1. 프로필</h1>
