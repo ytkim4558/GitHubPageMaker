@@ -8,6 +8,8 @@ class: page-template
 subclass: 'post page portfolio-page english-page'
 ---
 
+<div id="portfolio-top" class="anchor-target"></div>
+
 <section class="portfolio-hero">
   <p class="portfolio-eyebrow">OpenSearch · Support Automation · AI Workflow</p>
   <h2>A support engineer who turns repeated troubleshooting patterns into reliable tools.</h2>
@@ -41,7 +43,7 @@ subclass: 'post page portfolio-page english-page'
   <a href="#experience">Experience</a>
   <a href="#automation">Automation</a>
   <a href="#tools">Tools</a>
-  <a href="#profile">Top</a>
+  <a href="#portfolio-top">Top</a>
 </aside>
 
 # Profile

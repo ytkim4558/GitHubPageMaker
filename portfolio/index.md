@@ -9,6 +9,8 @@ class: page-template
 subclass: 'post page portfolio-page'
 ---
 
+<div id="portfolio-top" class="anchor-target"></div>
+
 <section class="portfolio-hero">
   <p class="portfolio-eyebrow">Cloud Analytics · AI Workflow · Data Platform</p>
   <h2>분산 데이터 시스템을 운영하고, 반복되는 문제를 도구로 줄이는 엔지니어</h2>
@@ -45,7 +47,7 @@ subclass: 'post page portfolio-page'
   <a href="#경력요약">Experience</a>
   <a href="#사이드프로젝트기술서">AI Tools</a>
   <a href="#자격사항">Certs</a>
-  <a href="#profile">Top</a>
+  <a href="#portfolio-top">Top</a>
 </aside>
 
 
