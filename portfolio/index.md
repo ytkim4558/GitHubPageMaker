@@ -17,8 +17,9 @@ subclass: 'post page'
 - [5. 보유기술](#보유기술)
 - [6. 경력기술서](#경력기술서)
 - [7. 사이드프로젝트 기술서](#사이드프로젝트기술서)
-    - 7.4 claude-resume (Claude Code 세션 피커 TUI)
-    - 7.5 claude-toolkit (Claude Code 워크플로 스킬 모음)
+    - 7.1 claude-resume (Claude Code 세션 피커 TUI)
+    - 7.2 claude-toolkit (Claude Code 워크플로 스킬 모음)
+    - 7.3 초기 안드로이드 사이드 프로젝트 (2016~2017)
 - [8. 자격 사항](#자격사항)
 - [9. 언어 및 병역사항](#언어및병역사항)
 - [10. 수상 경력](#수상경력)
@@ -81,9 +82,9 @@ subclass: 'post page'
 
 <h1 id="사이드프로젝트요약">3. 사이드 프로젝트 요약</h1>
 
-- 그룹주소록 App. 개발 (Android 개발)
-- ‘BikeNavi’ App. 개발 (Android 개발) (2016.09-2016.11)
-- ‘HotDealppom’(핫딜뽐) App. 개발 (2016.12-2017.06)
+- **claude-toolkit** : Claude Code 커스텀 스킬·도구 모음 (2026.05~)
+- **claude-resume** : Claude Code 세션 피커 TUI (2026.05)
+- 초기 안드로이드 사이드 프로젝트 (2016~2017) : HotDealppom, BikeNavi, 그룹주소록 등
 
 ----------
 
@@ -363,54 +364,7 @@ subclass: 'post page'
 
 <h1 id="사이드프로젝트기술서">7. 사이드프로젝트 기술서</h1> 
 
-## 7.1 그룹주소록 App. 개발 (Android 개발)
-- 그룹 단위로 관리할 수 있는 연락처 어플
-- 프로그램 시연
-{% include youtubePlayer.html id="60rDdIGMNBw" %}
-
-## 7.2 ‘BikeNavi’ App. 개발 (Android 개발)
-### 기간 : 2016.09 ~ 2016.11 (10주)
-### 자전거 네비게이션 앱 개발
-### 프로그램 시연
--	로그인 시연
-{% include youtubePlayer.html id="twEFkv44Kwk" %}
--	메인 기능 시연
-{% include youtubePlayer.html id="LR_fLXNpb2Y" %}
--	실제 라이딩에서 어플을 활용 시연
-{% include youtubePlayer.html id="NqDWp3VmwBI" %}
-#### 사용 기술 
--	Android, Volley, Google API, Google Maps API, Tmap API, Facebook API, 카카오 서비스 API, Glide API, PHP, MySQL
-
-### 스크린샷
-![bikenavi1]({{"/assets/portfolio/image019.jpg"}})
-![bikenavi2]({{"/assets/portfolio/image020.png"}})
-![bikenavi3]({{"/assets/portfolio/image021.png"}})
-![bikenavi4]({{"/assets/portfolio/image022.png"}})
-![bikenavi5]({{"/assets/portfolio/image023.png"}})
-
-## 7.3	‘HotDealppom’(핫딜뽐) App. 개발 (Android 개발)
-### 기간 : 2016.12 ~ 2017.06 (설계 12주, 개발 8주)
-### 사람들이 관심 있을 상품만을 분석하여 추천하는 어플
-
-### 시스템 구성 
--	안드로이드 - 핫딜뽐 어플
--	서버 - 상품 정보 수집, 수집한 파일 저장, 수집한 파일 분석
-### 주요 기능
--	오픈마켓인 11번가와 소셜마켓인 쿠팡, 그리고 커뮤니티 사이트인 뽐뿌에서 유저가 설정한 관심사의 상품 리스트를 가져와 유저에게 추천
--	상품 항목 클릭 시, 상품 상세 화면 표시
-#### 사용 기술 
--	Scrapy, Android, Volley, Google API, Firebase API 
--	PHP, Nginx, Glide API, MariaDB, Hadoop, Flume, KoNLPy, Alhazmy13wordcloud
-### 프로그램 시연
-{% include youtubePlayer.html id="VqLyBLSEtoQ" %}
-
-### 스크린샷
-![hotdealppom1]({{"/assets/portfolio/image025.png"}})
-![hotdealppom2]({{"/assets/portfolio/image026.png"}})
-![hotdealppom3]({{"/assets/portfolio/image027.png"}})
-![hotdealppom4]({{"/assets/portfolio/image028.png"}})
-
-## 7.4 claude-resume — Claude Code 세션 피커 (2026.05)
+## 7.1 claude-resume — Claude Code 세션 피커 (2026.05)
 ### 기간 : 2026.05.16 ~ 2026.05.17 (2일)
 ### Claude Code (Anthropic) 의 이전 대화 세션을 빠르게 찾아 이어갈 수 있는 두-패널 인터랙티브 TUI 도구
 
@@ -433,7 +387,7 @@ subclass: 'post page'
 - [코드 리포](https://github.com/ytkim4558/claude-resume)
 - [상세 설계 문서](https://github.com/ytkim4558/claude-toolkit/blob/main/docs/tools/claude-resume.md)
 
-## 7.5 claude-toolkit — Claude Code 워크플로 스킬 모음 (2026.05~)
+## 7.2 claude-toolkit — Claude Code 워크플로 스킬 모음 (2026.05~)
 ### 반복되는 작업을 Claude Code 의 자체 스킬로 묶어 재사용 가능하게 만든 도구 모음
 
 ### 포함된 스킬
@@ -449,6 +403,13 @@ subclass: 'post page'
 
 ### 링크
 - [코드 리포 + 위키](https://github.com/ytkim4558/claude-toolkit)
+
+## 7.3 초기 안드로이드 사이드 프로젝트 (2016 ~ 2017)
+모바일 개발 입문기에 만든 Android 사이드 프로젝트들. 자세한 시연 영상/스크린샷은 [github.com/ytkim4558](https://github.com/ytkim4558) 의 옛 리포 참고.
+
+- **HotDealppom (핫딜뽐)** (2016.12 ~ 2017.06) : 11번가/쿠팡/뽐뿌에서 사용자 관심사 기반 상품 추천 안드로이드 앱. 서버에서 상품 정보 수집/분석. (Android, Scrapy, PHP, MariaDB, Hadoop, Flume, KoNLPy)
+- **BikeNavi** (2016.09 ~ 2016.11, 10주) : Android 자전거 네비게이션 앱. (Google Maps API, Tmap API, 카카오 서비스 API, PHP, MySQL)
+- **그룹주소록** : 그룹 단위로 관리할 수 있는 안드로이드 연락처 어플.
 
 ----------
 
