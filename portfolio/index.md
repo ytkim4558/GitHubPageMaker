@@ -19,7 +19,8 @@ subclass: 'post page'
 - [7. 사이드프로젝트 기술서](#사이드프로젝트기술서)
     - 7.1 claude-resume (Claude Code 세션 피커 TUI)
     - 7.2 claude-toolkit (Claude Code 워크플로 스킬 모음)
-    - 7.3 초기 안드로이드 사이드 프로젝트 (2016~2017)
+    - 7.3 codex-resume (OpenAI Codex CLI 세션 검색/재개 도구)
+    - 7.4 초기 안드로이드 사이드 프로젝트 (2016~2017)
 - [8. 자격 사항](#자격사항)
 - [9. 언어 및 병역사항](#언어및병역사항)
 - [10. 수상 경력](#수상경력)
@@ -84,6 +85,7 @@ subclass: 'post page'
 
 - **claude-toolkit** : Claude Code 커스텀 스킬·도구 모음 (2026.05~)
 - **claude-resume** : Claude Code 세션 피커 TUI (2026.05)
+- **codex-resume** : OpenAI Codex CLI 세션 검색/재개 도구 (2026.05)
 - 초기 안드로이드 사이드 프로젝트 (2016~2017) : HotDealppom, BikeNavi, 그룹주소록 등
 
 ----------
@@ -92,7 +94,7 @@ subclass: 'post page'
 
 - **AWS Analytics 서비스 (Amazon OpenSearch, Kinesis, QuickSight) 운영 및 트러블슈팅 전문성** — AWS Certified OpenSearch Subject Matter Expert (2023.05) 인정
 - **대규모 분산 시스템·데이터 파이프라인 성능 최적화** 및 엔터프라이즈 마이그레이션 (IBM Cloud Pak for Data → OpenShift) 경험
-- **Claude Code, Claude API 를 이용한 AI 협업 워크플로 설계 및 자체 도구 개발 경험** (TUI 세션 피커, 커스텀 스킬 모음 등)
+- **Claude Code, Claude API, OpenAI Codex CLI 를 이용한 AI 협업 워크플로 설계 및 자체 도구 개발 경험** (TUI 세션 피커, 커스텀 스킬 모음, 세션 인덱서 등)
 - **AI 보조 시스템 디버깅 자동화** — Windows Event Log, BSOD 미니덤프 분석을 LLM 지원으로 단축
 - Android 어플 개발 및 상용화 
 - iOS 어플 개발 및 상용화
@@ -404,7 +406,30 @@ subclass: 'post page'
 ### 링크
 - [코드 리포 + 위키](https://github.com/ytkim4558/claude-toolkit)
 
-## 7.3 초기 안드로이드 사이드 프로젝트 (2016 ~ 2017)
+## 7.3 codex-resume — OpenAI Codex CLI 세션 검색/재개 도구 (2026.05)
+### 기간 : 2026.05.17
+### OpenAI Codex CLI 의 로컬 세션 로그를 검색하고 선택한 세션으로 이어갈 수 있게 만든 Windows 친화형 도구
+
+### 주요 기능
+- `%USERPROFILE%\.codex\sessions` 아래의 Codex JSONL 로그를 직접 스캔
+- `session_meta`, `user_message`, `response_item`, `event_msg` 레코드를 파싱해 세션 ID, 작업 디렉터리, 첫 사용자 요청, 최근 응답 preview 추출
+- `doctor`, `list`, `list --json`, `index`, `resume <session-id>` 명령 제공
+- 외부 npm 의존성 없이 Node.js 기본 모듈만으로 동작하는 키보드 기반 picker 구현
+- 선택한 세션을 `codex resume <session-id>` 로 handoff
+
+### 설계 결정
+- Codex CLI 의 native resume 기능은 그대로 사용하고, 탐색성과 preview 품질을 보완하는 얇은 도구로 설계
+- 파일 mtime 대신 JSONL 내부 timestamp 를 사용해 정렬 기준을 안정화
+- `<environment_context>` 같은 bootstrap 메시지는 제목/preview 에서 제외해 실제 사용자 요청이 먼저 보이도록 처리
+
+### 사용 기술
+- Node.js, JavaScript ES Modules, PowerShell/CMD wrapper, JSONL 파싱, Windows 경로 처리
+
+### 링크
+- [코드 리포](https://github.com/ytkim4558/codex-resume)
+- [상세 설계 문서](https://github.com/ytkim4558/claude-toolkit/blob/main/docs/tools/codex-resume.md)
+
+## 7.4 초기 안드로이드 사이드 프로젝트 (2016 ~ 2017)
 
 <details class="lazy-details">
 <summary>▶ 자세히 보기 — HotDealppom, BikeNavi, 그룹주소록 (시연 영상 + 스크린샷, 펼칠 때 로딩)</summary>
