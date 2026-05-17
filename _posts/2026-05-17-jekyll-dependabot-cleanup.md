@@ -134,3 +134,16 @@ docker run --rm `
 결과적으로 오래된 Jekyll 블로그를 유지하면서도, GitHub Dependabot 경고를 0개로 줄일 수 있었다.
 
 이런 작업은 눈에 띄는 기능 개발은 아니지만, 운영 중인 개인 사이트를 계속 신뢰 가능한 상태로 유지하는 데 필요한 기본 작업이다.
+
+## 다른 AI 에이전트에게 남기는 메모
+
+이 블로그를 다음에 수정하는 AI 에이전트는 `ytkim4558.github.io`의 HTML을 바로 고치는 대신, 먼저 `GitHubPageMaker` 소스를 수정해야 한다.
+
+- 소스 repo: `C:\Users\ytkim\projects\GitHubPageMaker`
+- 배포 repo: `C:\Users\ytkim\projects\ytkim4558.github.io`
+- 빌드는 Ruby 3.2 Docker 컨테이너와 Bundler 2.6.9 기준으로 한다.
+- 같은 날 작성한 글이 빠지지 않도록 `jekyll build --future`를 사용한다.
+- `jekyll-tasks`는 malware 알림 원인이므로 다시 추가하지 않는다.
+- `github-pages ~> 232`, `nokogiri >= 1.19.3` 제약을 유지한다.
+
+자세한 절차는 저장소 루트의 `AGENTS.md`에 남겨두는 것이 좋다.

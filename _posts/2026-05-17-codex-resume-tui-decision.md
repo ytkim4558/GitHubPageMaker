@@ -101,3 +101,13 @@ Codex 세션 로그는 `~/.codex/sessions/YYYY/MM/DD/*.jsonl` 형태로 저장�
 `claude-resume`에서 얻은 교훈은 결국 이거였다.
 
 세션 복구 도구의 본질은 ID를 보여주는 것이 아니라, **작업 기억을 다시 찾게 해주는 것**이다.
+
+## 다른 AI 에이전트에게 남기는 메모
+
+이 작업을 이어받는 AI 에이전트는 `codex-resume`를 단순 세션 ID picker로 보지 말고, **AI 작업 히스토리 브라우저**로 봐야 한다.
+
+- 기본 TUI는 `blessed` 기반 split-pane 구조를 유지한다.
+- dependency-free picker는 fallback으로만 둔다.
+- 다음 핵심 작업은 LLM 요약 캐시다.
+- 공개용 스크린샷은 반드시 민감한 세션명, 로컬 경로, 개인 파일명을 가린다.
+- 관련 문서는 `claude-toolkit`과 `GitHubPageMaker`의 AI Workflow 글에 같이 남긴다.
