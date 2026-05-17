@@ -103,9 +103,9 @@ subclass: 'post page portfolio-page'
 
 <h1 id="사이드프로젝트요약">3. 사이드 프로젝트 요약</h1>
 
-- **claude-toolkit** : Claude Code 커스텀 스킬·도구 모음 (2026.05~)
-- **claude-resume** : LLM 요약 기반 Claude Code 세션 피커 TUI (2026.05)
-- **codex-resume** : OpenAI Codex CLI 세션 검색/재개 도구 (2026.05)
+- **[claude-toolkit](https://github.com/ytkim4558/claude-toolkit)** : Claude Code 커스텀 스킬·도구 모음 (2026.05~)
+- **[claude-resume](https://github.com/ytkim4558/claude-resume)** : LLM 요약 기반 Claude Code 세션 피커 TUI (2026.05)
+- **[codex-resume](https://github.com/ytkim4558/codex-resume)** : OpenAI Codex CLI 세션 검색/재개 도구 (2026.05)
 - 초기 안드로이드 사이드 프로젝트 (2016~2017) : HotDealppom, BikeNavi, 그룹주소록 등
 
 ----------
@@ -386,7 +386,7 @@ subclass: 'post page portfolio-page'
 
 <h1 id="사이드프로젝트기술서">7. 사이드프로젝트 기술서</h1> 
 
-## 7.1 claude-resume — LLM 요약 기반 Claude Code 세션 피커 (2026.05)
+## 7.1 [claude-resume](https://github.com/ytkim4558/claude-resume) — LLM 요약 기반 Claude Code 세션 피커 (2026.05)
 ### 기간 : 2026.05.16 ~ 2026.05.17 (2일)
 ### Claude Code (Anthropic) 의 과거 대화 히스토리를 LLM 요약으로 빠르게 찾고 이어갈 수 있는 두-패널 인터랙티브 TUI 도구
 
@@ -410,7 +410,7 @@ subclass: 'post page portfolio-page'
 - [코드 리포](https://github.com/ytkim4558/claude-resume)
 - [상세 설계 문서](https://github.com/ytkim4558/claude-toolkit/blob/main/docs/tools/claude-resume.md)
 
-## 7.2 claude-toolkit — Claude Code 워크플로 스킬 모음 (2026.05~)
+## 7.2 [claude-toolkit](https://github.com/ytkim4558/claude-toolkit) — Claude Code 워크플로 스킬 모음 (2026.05~)
 ### 반복되는 작업을 Claude Code 의 자체 스킬로 묶어 재사용 가능하게 만든 도구 모음
 
 ### 포함된 스킬
@@ -427,7 +427,7 @@ subclass: 'post page portfolio-page'
 ### 링크
 - [코드 리포 + 위키](https://github.com/ytkim4558/claude-toolkit)
 
-## 7.3 codex-resume — OpenAI Codex CLI 세션 검색/재개 도구 (2026.05)
+## 7.3 [codex-resume](https://github.com/ytkim4558/codex-resume) — OpenAI Codex CLI 세션 검색/재개 도구 (2026.05)
 ### 기간 : 2026.05.17
 ### OpenAI Codex CLI 의 로컬 세션 로그를 검색하고 선택한 세션으로 이어갈 수 있게 만든 Windows 친화형 도구
 

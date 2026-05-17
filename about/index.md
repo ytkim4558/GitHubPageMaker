@@ -17,7 +17,7 @@ subclass: 'post page'
 이전에는 CJ ENM 데이터 플랫폼 구축, OpenShift 기반 마이그레이션, Solr/MongoDB/Redis/RabbitMQ 기반 시스템 운영, Android/iOS 앱 개발 등을 경험했습니다.
 
 최근에는 Claude Code와 OpenAI Codex CLI를 실제 작업에 사용하면서, 반복되는 문제를 도구로 줄이는 데 관심을 두고 있습니다.
-`claude-resume`, `codex-resume`, `claude-toolkit` 같은 프로젝트는 그런 흐름에서 만든 작업물입니다.
+[`claude-resume`](https://github.com/ytkim4558/claude-resume), [`codex-resume`](https://github.com/ytkim4558/codex-resume), [`claude-toolkit`](https://github.com/ytkim4558/claude-toolkit) 같은 프로젝트는 그런 흐름에서 만든 작업물입니다.
 
 ## 이 사이트에 적는 내용
 

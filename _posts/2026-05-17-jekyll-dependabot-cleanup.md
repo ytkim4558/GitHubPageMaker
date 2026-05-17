@@ -11,7 +11,7 @@ subclass: 'post'
 author: ytkim4558
 ---
 
-`codex-resume` 작업을 포트폴리오와 블로그에 반영하는 과정에서 GitHub push 메시지에 Dependabot 경고가 같이 떴다.
+<a href="https://github.com/ytkim4558/codex-resume"><code>codex-resume</code></a> 작업을 포트폴리오와 블로그에 반영하는 과정에서 GitHub push 메시지에 Dependabot 경고가 같이 떴다.
 처음에는 단순한 경고처럼 보였지만, 실제로 확인해 보니 오래된 Jekyll 블로그 의존성에서 열린 취약점 알림이 여러 개 쌓여 있었다.
 
 이 글은 그 취약점을 무작정 최신화하지 않고, 사이트가 계속 빌드되는지 검증하면서 정리한 기록이다.

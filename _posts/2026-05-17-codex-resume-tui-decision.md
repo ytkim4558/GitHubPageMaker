@@ -11,7 +11,7 @@ subclass: 'post'
 author: ytkim4558
 ---
 
-`claude-resume`를 만들 때 가장 중요했던 기능은 단순히 과거 세션 목록을 보여주는 것이 아니었다.
+[`claude-resume`](https://github.com/ytkim4558/claude-resume)를 만들 때 가장 중요했던 기능은 단순히 과거 세션 목록을 보여주는 것이 아니었다.
 핵심은 **예전 대화가 무슨 작업이었는지 LLM 요약으로 바로 알아보고, 필요한 세션으로 이어가는 것**이었다.
 
 Claude Code의 기본 resume 화면은 세션 ID와 시간 중심이라 대화가 많아지면 찾기가 어렵다.
@@ -30,9 +30,9 @@ Claude Code의 기본 resume 화면은 세션 ID와 시간 중심이라 대화�
 - 요약은 캐시되므로 다음 실행부터 빠르게 볼 수 있다.
 - UI가 두 패널로 나뉘어 있어 목록과 상세 내용을 동시에 비교할 수 있다.
 
-## codex-resume의 첫 구현
+## [codex-resume](https://github.com/ytkim4558/codex-resume)의 첫 구현
 
-OpenAI Codex CLI용으로 비슷한 도구인 `codex-resume`를 만들 때는 처음에 반대로 접근했다.
+OpenAI Codex CLI용으로 비슷한 도구인 [`codex-resume`](https://github.com/ytkim4558/codex-resume)를 만들 때는 처음에 반대로 접근했다.
 외부 의존성을 최소화하고 Node.js 기본 모듈만으로 동작하는 MVP를 먼저 만들었다.
 
 처음 구현한 기능은 다음과 같았다.
@@ -110,4 +110,4 @@ Codex 세션 로그는 `~/.codex/sessions/YYYY/MM/DD/*.jsonl` 형태로 저장�
 - dependency-free picker는 fallback으로만 둔다.
 - 다음 핵심 작업은 LLM 요약 캐시다.
 - 공개용 스크린샷은 반드시 민감한 세션명, 로컬 경로, 개인 파일명을 가린다.
-- 관련 문서는 `claude-toolkit`과 `GitHubPageMaker`의 AI Workflow 글에 같이 남긴다.
+- 관련 문서는 [`claude-toolkit`](https://github.com/ytkim4558/claude-toolkit)과 [`GitHubPageMaker`](https://github.com/ytkim4558/GitHubPageMaker)의 AI Workflow 글에 같이 남긴다.
