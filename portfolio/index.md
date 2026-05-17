@@ -87,7 +87,6 @@ subclass: 'post page portfolio-page'
 - Name : 김 용 탁 (KimYongTak)
 - Phone : 010-3356-4558
 - [Github 바로가기](https://github.com/ytkim4558/)
-- [SNS 바로가기](https://www.facebook.com/ytkim4558)
 - [Linkedin 프로필 바로가기](https://www.linkedin.com/in/yongtak-kim-b7553727/)
 - mail : ytkim4558@gmail.com
 - Address : 서울특별시 서초구 잠원동
@@ -96,14 +95,20 @@ subclass: 'post page portfolio-page'
 
 <h1 id="경력요약">경력 요약</h1>
 
-## Amazon Web Services (AWS)        Cloud Support Engineer II / Cloud Support Engineer (Analytics) (2022.04~재직중, 재택근무)
+<div class="company-heading">
+  <img src="/assets/images/company/aws.svg" alt="AWS logo tile" loading="lazy">
+  <h2>Amazon Web Services (AWS) <small>Cloud Support Engineer II / Analytics</small></h2>
+</div>
 - AWS Analytics 서비스 (Amazon OpenSearch, Amazon Kinesis, Amazon QuickSight) 에 대한 기술 지원 제공
 - 분산 시스템, 데이터 파이프라인, 성능 최적화 관련 복잡한 고객 문제 진단 및 해결
 - AWS 서비스 팀과 협업하여 서비스 관련 이슈 에스컬레이션 및 장기 해결책 구현
 - 분석 아키텍처, 쿼리 최적화, 데이터 수집 모범 사례 가이드 제공
 - 2023.05 AWS Certified OpenSearch Subject Matter Expert 인정, 2023.10 Cloud Support Engineer II 승급
 
-## CJ 올리브 네트웍스 데이터플랫폼파트        Data Platform Senior Engineer (2019.07.01~2022.04.30)
+<div class="company-heading">
+  <img src="/assets/images/company/cj-olive.svg" alt="CJ OliveNetworks logo tile" loading="lazy">
+  <h2>CJ 올리브 네트웍스 <small>Data Platform Senior Engineer</small></h2>
+</div>
 - CJ ENM 빅데이터 플랫폼 구축 시 IBM Cloud Pak for Data (CP4D) → OpenShift 마이그레이션 주도
 - 제일제당 BDP HR DB AD 서버 연동 작업
 - 데이터바우처 중고차 가격 예측 시스템용 크롤러 개발
@@ -111,7 +116,10 @@ subclass: 'post page portfolio-page'
 - CJ ENM 시각화 솔루션 시스템 구축 (multi table / view modeling)
 - CGV AI Competitor 시스템 모니터링 및 유지보수
 
-## 지바이크           개발팀                  SW Engineer (2018.06.25~2019.06.26)
+<div class="company-heading">
+  <img src="/assets/images/company/gbike.svg" alt="G.Bike logo tile" loading="lazy">
+  <h2>지바이크 <small>SW Engineer</small></h2>
+</div>
 - 스쿠터 소셜 펀딩 iOS 앱 신규 개발
 - 스쿠터 소셜 크라우딩 안드로이드 앱 기능 추가
 - 지바이크앱에 스쿠터 대여, 반납 기능 추가 
@@ -119,16 +127,25 @@ subclass: 'post page portfolio-page'
 - 백엔드(서버 aws), 클라이언트(안드로이드 앱, 아이폰앱), 관리자웹, 디비 기능 추가 및 유지보수
 - 관리자앱 하이브리드 앱 개발
 
-## 팀노바			포피스모바일팀            개발파트장	(2017.07.03-2018.03.19)
+<div class="company-heading">
+  <img src="/assets/images/company/teamnova.svg" alt="Teamnova logo tile" loading="lazy">
+  <h2>팀노바 <small>포피스모바일팀 개발파트장</small></h2>
+</div>
 -	포피스(Popiece)’ App. 개발 (Android 개발) 및 운영
 -	포피스(Popiece)’ 프로토 타입 App개발 (iOS 개발)
 
-## ㈜디오텍			영상처리개발팀  	  대리		(2013.05.13-2015.05.30)
+<div class="company-heading">
+  <img src="/assets/images/company/diotek.svg" alt="DioTek logo tile" loading="lazy">
+  <h2>㈜디오텍 <small>영상처리개발팀 대리</small></h2>
+</div>
 -	자모와 받침이 있는 언어에 대한 OCR 연구 및 개발
 -	단어 이미지의 필기체, 인쇄체 구분 알고리즘 구현
 -	공책 라인 검출/제거 및 글자복원 알고리즘 개발
 
-## ㈜디지털아리아	코어개발팀, 국책과제TF팀 주임연구원 	(2011.12.12-2013.03.19)
+<div class="company-heading">
+  <img src="/assets/images/company/digitalaria.svg" alt="Digital Aria logo tile" loading="lazy">
+  <h2>㈜디지털아리아 <small>코어개발팀 / 국책과제TF팀 주임연구원</small></h2>
+</div>
 -	국책과제 PM 담당, 얼굴인식, 손가락인식 개발
 -	버전별 렌더링 자동 테스트 시스템 개발
 
@@ -183,7 +200,10 @@ subclass: 'post page portfolio-page'
 
 <h1 id="경력기술서">경력 기술서</h1> 
 
-## Amazon Web Services (AWS) (2022.04~재직중, 재택근무) (4년 2개월)
+<div class="company-heading">
+  <img src="/assets/images/company/aws.svg" alt="AWS logo tile" loading="lazy">
+  <h2>Amazon Web Services (AWS) <small>2022.04~재직중 · 재택근무 · 4년 2개월</small></h2>
+</div>
 - 회사소개 : 글로벌 최대 규모 퍼블릭 클라우드 서비스 제공 기업
 - Analytics 부서
 - 직책 : Cloud Support Engineer II (2023.10~현재) / Cloud Support Engineer (2022.04~2023.10)
@@ -206,7 +226,10 @@ subclass: 'post page portfolio-page'
 - 분산 시스템 트러블슈팅, 쿼리 최적화, 데이터 인제스천 파이프라인 설계
 - 영문 기술 커뮤니케이션 및 글로벌 서비스 팀 협업
 
-## CJ 올리브 네트웍스 (2019.07.01 ~ 2022.04.30) (2년 10개월, 하이브리드 근무)
+<div class="company-heading">
+  <img src="/assets/images/company/cj-olive.svg" alt="CJ OliveNetworks logo tile" loading="lazy">
+  <h2>CJ 올리브 네트웍스 <small>2019.07.01~2022.04.30 · 하이브리드 · 2년 10개월</small></h2>
+</div>
 - 회사소개 : Digital Experience와 신기술 기반 고객 비즈니스 가치를 창출하는 Intelligent ICT 전문기업
 - 데이터플랫폼파트, Data Platform Senior Engineer
 
@@ -255,7 +278,10 @@ subclass: 'post page portfolio-page'
 ### 이직 사유
 - 글로벌 클라우드 서비스 회사(AWS)로의 커리어 전환
 
-## G.Bike (2018.06-2019.06)
+<div class="company-heading">
+  <img src="/assets/images/company/gbike.svg" alt="G.Bike logo tile" loading="lazy">
+  <h2>G.Bike <small>2018.06~2019.06</small></h2>
+</div>
 - 회사소개 : 현재 자동차 중심의 환경인 한국에서 녹색 도시 이동성을 혁신하는 이동 공유 기업이다. 
 - 개발팀, SW Engineer, Manager
 
@@ -346,7 +372,10 @@ subclass: 'post page portfolio-page'
   <a href="/assets/portfolio/주차금지구역2.png"><img src="/assets/portfolio/주차금지구역2.png" alt="지빌리티 주차 금지 구역 화면 2"></a>
 </div>
 
-## 팀노바 (2017.07-2018.03) (9개월)
+<div class="company-heading">
+  <img src="/assets/images/company/teamnova.svg" alt="Teamnova logo tile" loading="lazy">
+  <h2>팀노바 <small>2017.07~2018.03 · 9개월</small></h2>
+</div>
 - 회사소개 : 여행 플랫폼을 개발중인 벤처회사. 
 - 개발팀, 개발파트장
 
@@ -389,7 +418,10 @@ subclass: 'post page portfolio-page'
   <a href="/assets/portfolio/image015.png"><img src="/assets/portfolio/image015.png" alt="포피스 iOS 화면 6"></a>
 </div>
 
-## ㈜디오텍 (2013년 05월 ~ 2015년 05월) (2년 1개월)
+<div class="company-heading">
+  <img src="/assets/images/company/diotek.svg" alt="DioTek logo tile" loading="lazy">
+  <h2>㈜디오텍 <small>2013.05~2015.05 · 2년 1개월</small></h2>
+</div>
 회사소개 : 1999년 3월 31일에 설립된 시스템 소프트웨어 개발 및 공급업 업종의 소프트웨어(필기인식, 전자사전, 모바일OCR) 개발, 공급 사업을 하는 코스닥 기업. 자본금은 110억 2,797만원 매출액은 178억 2,470만원 사원수는 142명.
 개발팀, 대리
 
@@ -403,7 +435,10 @@ subclass: 'post page portfolio-page'
 
 - 이직 또는 퇴직 사유 : 전문연구요원 군 복무 만료 이후 자기 역량 계발
 
-## ㈜디지탈아리아 (2011년 12월 ~ 2013년 04월) (1년 5개월)
+<div class="company-heading">
+  <img src="/assets/images/company/digitalaria.svg" alt="Digital Aria logo tile" loading="lazy">
+  <h2>㈜디지탈아리아 <small>2011.12~2013.04 · 1년 5개월</small></h2>
+</div>
 회사소개 : 2000년 6월 7일에 설립된 시스템 소프트웨어 개발 및 공급업 업종의 전자부품 제조/소프트웨어(임베디드디바이스용 미들웨어, GUI 프레임워크) 개발, 판매, 기술용역 사업을 하는 코스닥 기업. 자본금은 115억 6,847만원 매출액은 144억 9,692만원 사원수는 88명.
 개발팀, 연구원
 

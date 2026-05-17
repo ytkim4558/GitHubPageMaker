@@ -119,10 +119,12 @@
 
     <script>
       (function() {
-        var languageSwitch = document.querySelector('[data-language-switch]');
-        if (languageSwitch) {
-          languageSwitch.addEventListener('click', function() {
-            localStorage.setItem('site-language', languageSwitch.getAttribute('data-target-lang') || 'ko');
+        var languageSwitches = document.querySelectorAll('[data-language-switch]');
+        if (languageSwitches.length) {
+          languageSwitches.forEach(function(languageSwitch) {
+            languageSwitch.addEventListener('click', function() {
+              localStorage.setItem('site-language', languageSwitch.getAttribute('data-target-lang') || 'ko');
+            });
           });
         }
 
@@ -131,6 +133,7 @@
           var map = {
             '/': '/en/',
             '/about/': '/en/about/',
+            '/profile/': '/en/about/',
             '/portfolio/': '/en/portfolio/'
           };
           document.querySelectorAll('.site-nav a, .home-profile-hero a, .profile-actions a').forEach(function(link) {
