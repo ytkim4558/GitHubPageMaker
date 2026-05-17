@@ -1,7 +1,7 @@
 ---
 layout: page
 current: portfolio
-cover:  assets/images/welcome.jpg
+cover:  assets/images/covers/portfolio-systems.svg
 title: Portfolio
 navigation: true
 logo: 'assets/images/ghost.png'

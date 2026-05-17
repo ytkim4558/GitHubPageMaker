@@ -1,7 +1,7 @@
 ---
 layout: page
 current: profile
-cover:  assets/images/blog-cover.jpg
+cover:  assets/images/covers/profile-ai-support.svg
 title: Profile
 navigation: true
 class: page-template

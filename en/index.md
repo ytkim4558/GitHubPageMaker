@@ -1,7 +1,7 @@
 ---
 layout: page
 current: english
-cover:  assets/images/blog-cover.jpg
+cover:  assets/images/covers/engineering-notes.svg
 title: English
 navigation: true
 class: page-template

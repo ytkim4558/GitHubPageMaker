@@ -37,7 +37,7 @@ profile_assistant_api:
 # Optional Cloudflare Worker base URL for the profile assistant.
 # Keep empty to use the static local fallback only.
 
-cover: assets/images/blog-cover.jpg
+cover: assets/images/covers/engineering-notes.svg
 # blog home에 표시될 blog cover image.
 
 logo:

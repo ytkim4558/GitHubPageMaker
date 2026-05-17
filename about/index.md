@@ -1,7 +1,7 @@
 ---
 layout: page
 current: about
-cover:  assets/images/welcome.jpg
+cover:  assets/images/covers/about-workbench.svg
 title: About
 navigation: true
 logo: 'assets/images/ghost.png'

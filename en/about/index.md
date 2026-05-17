@@ -1,7 +1,7 @@
 ---
 layout: page
 current: english
-cover:  assets/images/welcome.jpg
+cover:  assets/images/covers/about-workbench.svg
 title: About
 navigation: true
 class: page-template

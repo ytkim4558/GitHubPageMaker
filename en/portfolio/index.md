@@ -1,7 +1,7 @@
 ---
 layout: page
 current: english
-cover:  assets/images/welcome.jpg
+cover:  assets/images/covers/portfolio-systems.svg
 title: Portfolio
 navigation: true
 class: page-template
