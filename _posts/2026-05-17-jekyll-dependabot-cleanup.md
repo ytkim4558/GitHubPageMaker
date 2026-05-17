@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/blog-cover.jpg
+cover:  assets/images/jekyll-dependabot-cover.png
 navigation: True
 title: 오래된 Jekyll 블로그의 Dependabot 취약점 33개를 정리한 기록
 date: 2026-05-17 16:10:00

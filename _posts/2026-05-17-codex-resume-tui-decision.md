@@ -1,7 +1,7 @@
 ---
 layout: post
 current: post
-cover:  assets/images/blog-cover.jpg
+cover:  assets/images/codex-resume/claude-resume-redacted.png
 navigation: True
 title: codex-resume TUI를 만들면서 외부 TUI 라이브러리를 쓰기로 바꾼 이유
 date: 2026-05-17 14:30:00
