@@ -31,25 +31,56 @@ subclass: 'post page portfolio-page'
   <div><strong>2026</strong><span>AI Workflow Tooling</span></div>
 </section>
 
+<section id="selected-work" class="portfolio-work">
+  <div class="portfolio-section-heading">
+    <p class="portfolio-eyebrow">Selected Work</p>
+    <h2>반복되는 지원·개발 문제를 도구와 워크플로로 바꾼 작업들</h2>
+  </div>
+
+  <a class="work-card work-card-large" href="/profile/">
+    <span>Support Automation</span>
+    <strong>MCP 기반 support-agent / Slack bot 워크플로</strong>
+    <p>Slack, Outlook, wiki, ticket search, local tools를 연결해 고객 응답 초안, 공식 URL 검증, 유사 문서/티켓 검색, case aging triage, escalation readiness check를 자동화한 내부 워크플로 설계.</p>
+  </a>
+
+  <a class="work-card" href="https://github.com/ytkim4558/claude-resume">
+    <span>Session Recovery</span>
+    <strong>claude-resume</strong>
+    <p>Claude Code 과거 세션을 LLM 요약으로 찾고, 두 패널 TUI에서 대화 내용을 확인한 뒤 이어가는 도구.</p>
+  </a>
+
+  <a class="work-card" href="https://github.com/ytkim4558/codex-resume">
+    <span>Codex Tooling</span>
+    <strong>codex-resume</strong>
+    <p>OpenAI Codex CLI의 로컬 JSONL 세션을 검색하고 Windows 환경에서 안정적으로 resume하는 TUI.</p>
+  </a>
+
+  <a class="work-card" href="https://github.com/ytkim4558/linkedin-posting-mcp">
+    <span>MCP Tooling</span>
+    <strong>linkedin-posting-mcp</strong>
+    <p>사용자 승인 기반 LinkedIn posting workflow를 위한 비공식 로컬 MCP 서버. 스크래핑/DM 자동화 없이 게시 워크플로만 좁게 다룸.</p>
+  </a>
+</section>
+
 <nav class="portfolio-toc">
-  <a href="#profile">Profile</a>
-  <a href="#경력요약">Experience</a>
-  <a href="#사이드프로젝트요약">Projects</a>
-  <a href="#핵심역량">Strengths</a>
-  <a href="#보유기술">Skills</a>
-  <a href="#사이드프로젝트기술서">AI Tools</a>
-  <a href="#자격사항">Certifications</a>
-  <a href="#자기소개서">About</a>
+  <a href="#selected-work">Selected Work</a>
+  <a href="#detailed-resume">Detailed Resume</a>
+  <a href="/profile/">Quick Profile</a>
+  <a href="/en/portfolio/">English</a>
 </nav>
 
 <aside class="portfolio-floating-nav" aria-label="Portfolio quick navigation">
-  <a href="#profile">Profile</a>
-  <a href="#경력요약">Experience</a>
-  <a href="#사이드프로젝트기술서">AI Tools</a>
-  <a href="#자격사항">Certs</a>
+  <a href="#selected-work">Work</a>
+  <a href="#detailed-resume">Resume</a>
+  <a href="/profile/">Profile</a>
   <a href="#portfolio-top">Top</a>
 </aside>
 
+<details id="detailed-resume" class="portfolio-archive" markdown="1">
+<summary>
+  <span>Detailed Resume</span>
+  <strong>전체 경력·기술·학술 기록 펼쳐보기</strong>
+</summary>
 
 <h1 id="profile">1. 프로필</h1>
 
@@ -646,4 +677,5 @@ IBM Cloud Pak for Data 를 OpenShift 환경에 통합하는 엔터프라이즈�
 - 영문 기술 커뮤니케이션 및 글로벌 서비스 팀과의 협업 경험 축적
 
 
+</details>
 

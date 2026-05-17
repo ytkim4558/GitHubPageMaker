@@ -28,6 +28,27 @@ subclass: 'post page profile-page'
   </div>
 </section>
 
+<section class="profile-assistant" aria-label="Ask about Yongtak Kim">
+  <div>
+    <p class="profile-eyebrow">Ask this profile</p>
+    <h2>이 프로필에 대해 질문하기</h2>
+    <p>공개 프로필에 적힌 범위 안에서만 답하는 로컬 프로필 어시스턴트입니다. 실제 LLM API 키는 브라우저에 노출하지 않습니다.</p>
+  </div>
+  <div class="profile-assistant-box">
+    <div class="profile-assistant-prompts">
+      <button type="button" data-profile-question="OpenSearch와 AWS Support 경험을 요약해줘">OpenSearch 경험</button>
+      <button type="button" data-profile-question="AI workflow와 MCP 자동화 경험이 뭐야?">AI workflow</button>
+      <button type="button" data-profile-question="대표 프로젝트를 알려줘">대표 프로젝트</button>
+    </div>
+    <label for="profile-question">Question</label>
+    <textarea id="profile-question" rows="3" placeholder="예: 어떤 사람인지 짧게 설명해줘"></textarea>
+    <button type="button" class="profile-assistant-submit">Ask</button>
+    <div class="profile-assistant-answer" aria-live="polite">
+      질문을 입력하면 이 사이트에 공개된 프로필 정보를 바탕으로 답변합니다.
+    </div>
+  </div>
+</section>
+
 <section class="profile-grid">
   <article>
     <span>01</span>
