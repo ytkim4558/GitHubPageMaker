@@ -169,6 +169,16 @@ Not enough permissions to access: partnerApiPostsExternal.FINDER-author
 즉 OAuth 인증 자체는 성공했지만, 이 앱이 Posts Finder API로 본인 게시글을 읽을 권한은 없었다.
 `r_member_social`을 scope에 포함해 다시 인증해도 결과는 같았다.
 
+이후 공식 FAQ를 다시 확인하니 결론은 더 명확했다.
+LinkedIn Marketing API FAQ는 `r_member_social`을 closed permission으로 설명하고, 현재 resource constraint 때문에 access request를 받지 않는다고 안내한다.
+
+즉 이 문제는 구현 문법이나 OAuth callback 처리가 아니라, 현재 앱에 발급 가능한 권한의 경계였다.
+
+- `Sign In with LinkedIn using OpenID Connect`: 로그인과 기본 프로필 확인
+- `Share on LinkedIn`: `w_member_social`, 글 작성 권한
+- `Community Management API / Posts API`: 게시글 조회와 관리 영역
+- `r_member_social`: 개인 게시글 조회에 필요한 권한이지만 closed/restricted
+
 ## 결론
 
 LinkedIn API는 존재하지만, 개인 개발자 앱에서 기존 게시글 조회가 GitHub처럼 바로 열리는 구조는 아니었다.
@@ -179,6 +189,7 @@ LinkedIn API는 존재하지만, 개인 개발자 앱에서 기존 게시글 조
 - 토큰 발급도 가능하다.
 - 향후 승인된 범위 안에서 게시 워크플로를 만드는 것은 가능하다.
 - 하지만 기존 게시글 조회는 별도 권한 승인 없이 바로 되지 않았다.
+- 공식 FAQ 기준으로 `r_member_social`은 closed permission이므로, 개인 개발자 앱에서 기존 개인 글을 바로 읽는 경로로 기대하면 안 된다.
 - 따라서 "기존 LinkedIn 글을 읽어 톤을 분석"하는 작업은 당장은 수동 샘플 기반이 현실적이다.
 
 ## 앞으로의 규칙
