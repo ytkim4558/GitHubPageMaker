@@ -41,12 +41,20 @@ subclass: 'post page'
 
 <h1 id="경력요약">2. 경력요약</h1>
 
-## CJ 올리브 네트웍스 데이터플랫폼파트        System Eng. Senior Engineer (2019.07.01~재직중)
-- CGV 소셜데이터 분석서비스 SNS 채널 확장
-- 시스템 현황/구조 분석 진행
-- QFinder, CGV 소셜 데이터 분석 서비스의 Solr 현황 파악
-- Solr 데이터 적재 공간 부족이슈 원인 분석 및 해소
-- 확장한 SNS 채널 연관어 추출 추가 작업
+## Amazon Web Services (AWS)        Cloud Support Engineer II / Cloud Support Engineer (Analytics) (2022.04~재직중, 재택근무)
+- AWS Analytics 서비스 (Amazon OpenSearch, Amazon Kinesis, Amazon QuickSight) 에 대한 기술 지원 제공
+- 분산 시스템, 데이터 파이프라인, 성능 최적화 관련 복잡한 고객 문제 진단 및 해결
+- AWS 서비스 팀과 협업하여 서비스 관련 이슈 에스컬레이션 및 장기 해결책 구현
+- 분석 아키텍처, 쿼리 최적화, 데이터 수집 모범 사례 가이드 제공
+- 2023.05 AWS Certified OpenSearch Subject Matter Expert 인정, 2023.10 Cloud Support Engineer II 승급
+
+## CJ 올리브 네트웍스 데이터플랫폼파트        Data Platform Senior Engineer (2019.07.01~2022.04.30)
+- CJ ENM 빅데이터 플랫폼 구축 시 IBM Cloud Pak for Data (CP4D) → OpenShift 마이그레이션 주도
+- 제일제당 BDP HR DB AD 서버 연동 작업
+- 데이터바우처 중고차 가격 예측 시스템용 크롤러 개발
+- CGV 소셜데이터 분석서비스 SNS 채널 확장 (Solr 적재공간 이슈 해소, 연관어 추출 작업)
+- CJ ENM 시각화 솔루션 시스템 구축 (multi table / view modeling)
+- CGV AI Competitor 시스템 모니터링 및 유지보수
 
 ## 지바이크           개발팀                  SW Engineer (2018.06.25~2019.06.26)
 - 스쿠터 소셜 펀딩 iOS 앱 신규 개발
@@ -81,6 +89,8 @@ subclass: 'post page'
 
 <h1 id="핵심역량">4. 핵심역량</h1>
 
+- **AWS Analytics 서비스 (Amazon OpenSearch, Kinesis, QuickSight) 운영 및 트러블슈팅 전문성** — AWS Certified OpenSearch Subject Matter Expert (2023.05) 인정
+- **대규모 분산 시스템·데이터 파이프라인 성능 최적화** 및 엔터프라이즈 마이그레이션 (IBM Cloud Pak for Data → OpenShift) 경험
 - **Claude Code, Claude API 를 이용한 AI 협업 워크플로 설계 및 자체 도구 개발 경험** (TUI 세션 피커, 커스텀 스킬 모음 등)
 - **AI 보조 시스템 디버깅 자동화** — Windows Event Log, BSOD 미니덤프 분석을 LLM 지원으로 단축
 - Android 어플 개발 및 상용화 
@@ -101,6 +111,9 @@ subclass: 'post page'
 
 <h1 id="보유기술">5. 보유기술</h1>
 
+- **Cloud / Analytics** : AWS (OpenSearch, Kinesis, QuickSight, S3, EC2, CloudWatch 등), IBM Cloud Pak for Data
+- **Container / Orchestration** : Docker, Kubernetes, OpenShift
+- **Big Data / Search** : OpenSearch, Elasticsearch, Solr, Hadoop, Impala, Hive, Oozie, Hue
 - Language : Kotlin, Java, C, C++, Objective-C, Swift, Python, PHP7, Javascript, AJAX, HTML, Ruby
 - Database : RealmDB, MySQL, MariaDB, SQLite, Hadoop, MongoDB, Solr, Redis
 - Library : OpenCV, Glide, GoogleMap API, TMap API, Facebook API, Kakao Service API, Firebase, KoNLPy, GSON, jsoup, Butter Knife
@@ -114,21 +127,79 @@ subclass: 'post page'
 
 <h1 id="경력기술서">6. 경력 기술서</h1> 
 
-## 6.1 CJ 올리브 네트웍스 (2019.07.01~현재)
-- 회사소개 : Digital Experience와 신기술 기반 고객 비즈니스 가치를 창출하는 Intelligent ICT 전문기업
-- 데이터플랫폼파트, System Eng. Senior Engineer
+## 6.1 Amazon Web Services (AWS) (2022.04~재직중, 재택근무) (4년 2개월)
+- 회사소개 : 글로벌 최대 규모 퍼블릭 클라우드 서비스 제공 기업
+- Analytics 부서
+- 직책 : Cloud Support Engineer II (2023.10~현재) / Cloud Support Engineer (2022.04~2023.10)
 
 ### 담당 업무
-- Bigdata 분석 플랫폼 구축 및 운영 
+- AWS Analytics 서비스 (Amazon OpenSearch, Amazon Kinesis, Amazon QuickSight) 에 대한 기술 지원 제공
+- 분산 시스템, 데이터 파이프라인, 성능 최적화 관련 복잡한 고객 문제 진단 및 해결
+- AWS 서비스 팀과 협업하여 서비스 관련 이슈 에스컬레이션 및 장기 해결책 구현
+- 분석 아키텍처, 쿼리 최적화, 데이터 수집 모범 사례 가이드 제공
+- OpenSearch 인덱싱, 쿼리 성능, 클러스터 스케일링 관련 문제 진단 및 해결
+- 실시간 분석 및 시각화 솔루션 아키텍처 권장사항 제공
+
+### 주요 인정/승급
+- 2023.05 **AWS Certified OpenSearch Subject Matter Expert** 인정
+- 2023.10 Cloud Support Engineer II 승급
+- 2026.02 **AWS Certified Solutions Architect – Associate** 취득
+
+### 사용 기술
+- AWS : Amazon OpenSearch Service, Amazon Kinesis, Amazon QuickSight, CloudWatch, S3, EC2, IAM
+- 분산 시스템 트러블슈팅, 쿼리 최적화, 데이터 인제스천 파이프라인 설계
+- 영문 기술 커뮤니케이션 및 글로벌 서비스 팀 협업
+
+## 6.2 CJ 올리브 네트웍스 (2019.07.01 ~ 2022.04.30) (2년 10개월, 하이브리드 근무)
+- 회사소개 : Digital Experience와 신기술 기반 고객 비즈니스 가치를 창출하는 Intelligent ICT 전문기업
+- 데이터플랫폼파트, Data Platform Senior Engineer
+
+### 담당 업무
+- Bigdata 분석 플랫폼 구축 및 운영, 엔터프라이즈 마이그레이션 주도
 
 ### 프로젝트 진행사항
-#### CGV 소셜 데이터 분석서비스 채널 확장
-- 기간 : 2019.07.01 ~ 현재
+
+#### IBM Cloud Pak for Data 마이그레이션 (CJ ENM 빅데이터 플랫폼 구축)
+- 기간 : 2021 ~ 2022.04
+- 개요 : 기존 분석 플랫폼 시스템을 IBM 의 통합 데이터·AI 플랫폼인 Cloud Pak for Data(CP4D) 솔루션과 Kubernetes 의 엔터프라이즈 솔루션 OpenShift 추가로 기존 시스템과 Spring 프레임워크로 구성된 포털 시스템으로 변경
+- 담당 업무 :
+  - 기존 포털 시스템 분석 및 CP4D 솔루션 API 변경
+  - Kubernetes 가상화 환경에서 프로젝트 생성하도록 기존 API 재구성
+  - 기존 워크플로 분석 및 개발 시스템 구성
+  - MariaDB 테이블 추가 및 기존 테이블 변경 설계/구현
+  - IBM / InfraSoft / OpenShift 개발자들과 API 요구사항 정리 및 테스트
+- 환경 : IBM Cloud Pak for Data, OpenShift, Kubernetes, Spring, MariaDB
+
+#### 제일제당 BDP HR DB AD 서버 연동
+- 개요 : 제일제당 빅데이터 플랫폼(BDP) 의 HR DB 와 AD(Active Directory) 서버 연동 작업
+
+#### 데이터바우처 중고차 가격 예측 시스템 크롤러 개발
+- 개요 : 정부 데이터바우처 사업으로 진행된 중고차 가격 예측 시스템의 데이터 수집부 담당
+- 환경 : Python (Scrapy)
+
+#### CGV 소셜 데이터 분석서비스 SNS 채널 확장
+- 기간 : 2019.07.01 ~ 2020
 - 개요 : CGV 소셜 데이터 분석서비스에 새로운 SNS 채널 확장으로 인한 추가 작업 진행
-- 담당 업무 : 시스템 현황/구조 분석 진행, QFinder, CGV 소셜데이터분석서비스 의 Solr 현황 파악, Solr 데이터 적재공간부족 이슈 해소, 확장한 SNS 연관어 저장 추가 작업
+- 담당 업무 : 시스템 현황/구조 분석 진행, QFinder/CGV 소셜데이터분석서비스의 Solr 현황 파악, Solr 데이터 적재공간 부족 이슈 해소, 확장한 SNS 연관어 저장 추가 작업
 - 환경 : Solr, Redis, MongoDB, RabbitMQ
 
-## 6.2 G.Bike (2018.06-2019.06)
+#### CJ ENM 시각화 솔루션 구축
+- 담당 업무 : multi table 및 view modeling
+
+#### CGV AI Competitor 시스템 모니터링 및 유지보수
+- 담당 업무 : AI 기반 경쟁사 분석 시스템 운영, 장애 대응, 유지보수
+
+### 사용 기술
+- Client : Python, Java
+- Server : Linux
+- DB : MongoDB, Solr, Redis, Impala, Hive, MariaDB
+- Platform : Spring, OpenShift, Kubernetes, IBM Cloud Pak for Data
+- Etc : RabbitMQ, Oozie, Hue
+
+### 이직 사유
+- 글로벌 클라우드 서비스 회사(AWS)로의 커리어 전환
+
+## 6.3 G.Bike (2018.06-2019.06)
 - 회사소개 : 현재 자동차 중심의 환경인 한국에서 녹색 도시 이동성을 혁신하는 이동 공유 기업이다. 
 - 개발팀, SW Engineer, Manager
 
@@ -213,7 +284,7 @@ subclass: 'post page'
 ![popiece_ios4]({{"/assets/portfolio/주차금지구역1.png"}})
 ![popiece_ios4]({{"/assets/portfolio/주차금지구역2.png"}})
 
-## 6.3 팀노바 (2017.07-2018.03) (9개월)
+## 6.4 팀노바 (2017.07-2018.03) (9개월)
 - 회사소개 : 여행 플랫폼을 개발중인 벤처회사. 
 - 개발팀, 개발파트장
 
@@ -253,7 +324,7 @@ subclass: 'post page'
 ![popiece_ios5]({{"/assets/portfolio/image014.png"}})
 ![popiece_ios6]({{"/assets/portfolio/image015.png"}})
 
-## 6.4 ㈜디오텍 (2013년 05월 ~ 2015년 05월) (2년 1개월)
+## 6.5 ㈜디오텍 (2013년 05월 ~ 2015년 05월) (2년 1개월)
 회사소개 : 1999년 3월 31일에 설립된 시스템 소프트웨어 개발 및 공급업 업종의 소프트웨어(필기인식, 전자사전, 모바일OCR) 개발, 공급 사업을 하는 코스닥 기업. 자본금은 110억 2,797만원 매출액은 178억 2,470만원 사원수는 142명.
 개발팀, 대리
 
@@ -267,7 +338,7 @@ subclass: 'post page'
 
 - 이직 또는 퇴직 사유 : 전문연구요원 군 복무 만료 이후 자기 역량 계발
 
-## 6.5 ㈜디지탈아리아 (2011년 12월 ~ 2013년 03월) (1년 4개월)
+## 6.6 ㈜디지탈아리아 (2011년 12월 ~ 2013년 04월) (1년 5개월)
 회사소개 : 2000년 6월 7일에 설립된 시스템 소프트웨어 개발 및 공급업 업종의 전자부품 제조/소프트웨어(임베디드디바이스용 미들웨어, GUI 프레임워크) 개발, 판매, 기술용역 사업을 하는 코스닥 기업. 자본금은 115억 6,847만원 매출액은 144억 9,692만원 사원수는 88명.
 개발팀, 연구원
 
@@ -383,16 +454,21 @@ subclass: 'post page'
 
 <h1 id="자격사항">8. 자격 사항</h1>
 
+- **AWS Certified Solutions Architect – Associate** (Amazon Web Services, 발행 2026.02 · 만료 2029.02)
+- **Amazon OpenSearch Service (formerly Amazon Elasticsearch Service) Subject Matter Expert** (Amazon Web Services, 2023.05)
+- 듀오링고 영어 유창성: 중급 (추정치) (Duolingo, 2016.03)
+- OCP 10g (ORACLE, 2009.09 · 만료 2016.03)
 - 정보처리기사 (한국산업인력공단, 2009.06.01) 자격번호 : 09201011975K
-- OCP 10g			(ORACLE, 2009.09.03)
-- 워드프로세서 2급   (대한상공회의소, 2008.08.05) 자격번호 : 00-12-018012
+- 워드프로세서 2급 (대한상공회의소, 2008.08.05) 자격번호 : 00-12-018012
 
 ----------
 
 <h1 id="언어및병역사항">9. 언어 및 병역 사항</h1>
 
-- 영어 : TOEIC 755점 (2010.03), Working English 가능
-- 병역 : 전문연구요원 병역특례 (2012. 02.21 ~ 2015. 02.20) 병과 : 175101 군별 : 육군, 계급 : 이병
+- 한국어 : 원어민 (Native)
+- 영어 : Professional Working — TOEIC 755 (2010.03), OPIC IM1 (2022.02), 듀오링고 중급 (2016.03)
+- 일본어 : 초급 (Elementary)
+- 병역 : 전문연구요원 병역특례 (2012.02.21 ~ 2015.02.20) 병과 : 175101 군별 : 육군, 계급 : 이병
 
 ----------
 
@@ -404,9 +480,12 @@ subclass: 'post page'
 
 <h1 id="학력">11. 학력</h1>
 
-- 한양대학교 대학원 컴퓨터공학과 석사 4.14/4.50 	(2010년 3월 ~ 2012년 2월)
-- 한국산업기술대학교 컴퓨터공학과 학사 4.24/4.50 (2006년 3월 ~ 2010년 2월)
-- 동북고등학교 				   		(2002년 3월 ~ 2005년 2월)
+- **한양대학교 대학원 컴퓨터공학과 석사 4.14/4.50** (2010년 3월 ~ 2012년 2월)
+  - 국방과학연구소 프로젝트 참여 : "클러터 환경에서 장애물에 의한 가림표적 추적 및 다중 표적 추적기법 연구", "적외선 대역의 비균질 클러터 환경 분리/추적 기법 연구"
+  - C언어 프로그래밍 수업 교육 조교
+- **한국산업기술대학교 컴퓨터공학과 학사 4.25/4.50** (2006년 3월 ~ 2010년 2월)
+  - 졸업작품 : "실시간 스트리밍 기반의 교내방송시스템 (Real-time Streaming based Campus Broadcast System)"
+- 동북고등학교 (2002년 3월 ~ 2005년 2월)
 
 ----------
 
@@ -436,6 +515,29 @@ subclass: 'post page'
 
 <h1 id="자기소개서">13. 자기소개서</h1>
 
+AWS Cloud Support Engineer II 로서 클라우드 분석과 고객 솔루션을 중심으로,
+IT 업계에서 10년 이상의 다양한 개발·플랫폼 경험을 보유하고 있습니다.
+
+OpenSearch, Kinesis, QuickSight 등 AWS 서비스 전문성을 바탕으로, 대규모
+분산 시스템 문제 해결과 데이터 워크플로우 최적화에 강점을 갖고 있습니다.
+
+IBM Cloud Pak for Data 를 OpenShift 환경에 통합하는 엔터프라이즈급 마이그
+레이션 프로젝트를 주도하며, 분석 플랫폼 현대화와 운영 효율성을 향상시킨
+경험이 있습니다.
+
+과거에는 모바일 애플리케이션 개발(iOS/Android), 컴퓨터 비전 기반 이미지
+처리, 데이터 플랫폼 구축, 백엔드/API 개발 등 다양한 기술 분야에서 프로젝
+트를 수행하며 폭넓은 역량을 쌓았습니다.
+
+개발자, 인프라 엔지니어, 비즈니스 이해관계자 등 다양한 팀과의 협업을 통해
+고성과 프로젝트를 기한 내 완수한 경험이 있으며, 비즈니스 인사이트와 혁신
+을 이끄는 확장성·신뢰성·보안성을 갖춘 시스템 구축에 열정을 가지고 있습니다.
+
+**핵심 기술**: AWS Cloud, OpenSearch, Data Analytics, Big Data Platform, MySQL/MariaDB, Linux, CI/CD
+**추가 경험**: 모바일 앱 개발, 컴퓨터 비전, 백엔드/API 개발, 데이터베이스 설계
+
+----------
+
 ## 13.1 업무의 경험을 쌓다
 - 병역특례 전문연구요원으로 (주)디지탈아리아 입사
 - 엔진 코어 개발팀에서 Jira, Svn, 라이브러리 포팅 및 버그 수정 경험
@@ -451,6 +553,19 @@ subclass: 'post page'
 ## 13.3 iOS 세계에 도전하다
 - 팀노바에 입사 후 플레이스토어에 런칭 준비중이던 여행 도우미 안드로이드 어플인 포피스의 개발 및 버그 수정 
 - 포피스 iOS 팀이 신설되고 그 팀을 리딩하면서 직접 개발 진행.
+
+## 13.4 모빌리티 백엔드와 빅데이터로 확장하다
+- 지바이크에서 스쿠터 소셜 크라우드 펀딩 앱 (iOS/Android) 신규 개발, 백엔드 + 관리자웹까지 풀스택 운영
+- CJ 올리브 네트웍스에서 빅데이터 분석 플랫폼 구축 및 운영, IBM Cloud Pak for Data + OpenShift 기반의 엔터프라이즈 분석 플랫폼 마이그레이션 주도
+- Solr, MongoDB, Redis, Impala, Hive, RabbitMQ 등 빅데이터 서비스 생태계 다수 경험
+
+## 13.5 글로벌 클라우드 엔지니어로 진화하다
+- 2022년 4월 Amazon Web Services 입사, Cloud Support Engineer (Analytics) 시작
+- 2023년 5월 AWS Certified OpenSearch Subject Matter Expert 인정
+- 2023년 10월 Cloud Support Engineer II 승급
+- 2026년 2월 AWS Certified Solutions Architect – Associate 취득
+- AWS Analytics (OpenSearch, Kinesis, QuickSight) 전문성을 바탕으로 글로벌 고객의 복잡한 분산 시스템 문제 해결 및 아키텍처 권장사항 제공
+- 영문 기술 커뮤니케이션 및 글로벌 서비스 팀과의 협업 경험 축적
 
 
 
