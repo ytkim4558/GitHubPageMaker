@@ -82,7 +82,7 @@ subclass: 'post page portfolio-page'
   <strong>전체 경력·기술·학술 기록 펼쳐보기</strong>
 </summary>
 
-<h1 id="profile">1. 프로필</h1>
+<h1 id="profile">프로필</h1>
 
 - Name : 김 용 탁 (KimYongTak)
 - Phone : 010-3356-4558
@@ -94,7 +94,7 @@ subclass: 'post page portfolio-page'
 
 ----------
 
-<h1 id="경력요약">2. 경력요약</h1>
+<h1 id="경력요약">경력 요약</h1>
 
 ## Amazon Web Services (AWS)        Cloud Support Engineer II / Cloud Support Engineer (Analytics) (2022.04~재직중, 재택근무)
 - AWS Analytics 서비스 (Amazon OpenSearch, Amazon Kinesis, Amazon QuickSight) 에 대한 기술 지원 제공
@@ -134,7 +134,7 @@ subclass: 'post page portfolio-page'
 
 ----------
 
-<h1 id="사이드프로젝트요약">3. 사이드 프로젝트 요약</h1>
+<h1 id="사이드프로젝트요약">사이드 프로젝트 요약</h1>
 
 - **[claude-toolkit](https://github.com/ytkim4558/claude-toolkit)** : Claude Code 커스텀 스킬·도구 모음 (2026.05~)
 - **[claude-resume](https://github.com/ytkim4558/claude-resume)** : LLM 요약 기반 Claude Code 세션 피커 TUI (2026.05)
@@ -143,7 +143,7 @@ subclass: 'post page portfolio-page'
 
 ----------
 
-<h1 id="핵심역량">4. 핵심역량</h1>
+<h1 id="핵심역량">핵심 역량</h1>
 
 - **AWS Analytics 서비스 (Amazon OpenSearch, Kinesis, QuickSight) 운영 및 트러블슈팅 전문성** — AWS Certified OpenSearch Subject Matter Expert (2023.05) 인정
 - **대규모 분산 시스템·데이터 파이프라인 성능 최적화** 및 엔터프라이즈 마이그레이션 (IBM Cloud Pak for Data → OpenShift) 경험
@@ -165,7 +165,7 @@ subclass: 'post page portfolio-page'
 
 ----------
 
-<h1 id="보유기술">5. 보유기술</h1>
+<h1 id="보유기술">보유 기술</h1>
 
 - **Cloud / Analytics** : AWS (OpenSearch, Kinesis, QuickSight, S3, EC2, CloudWatch 등), IBM Cloud Pak for Data
 - **Container / Orchestration** : Docker, Kubernetes, OpenShift
@@ -181,9 +181,9 @@ subclass: 'post page portfolio-page'
 
 ----------
 
-<h1 id="경력기술서">6. 경력 기술서</h1> 
+<h1 id="경력기술서">경력 기술서</h1> 
 
-## 6.1 Amazon Web Services (AWS) (2022.04~재직중, 재택근무) (4년 2개월)
+## Amazon Web Services (AWS) (2022.04~재직중, 재택근무) (4년 2개월)
 - 회사소개 : 글로벌 최대 규모 퍼블릭 클라우드 서비스 제공 기업
 - Analytics 부서
 - 직책 : Cloud Support Engineer II (2023.10~현재) / Cloud Support Engineer (2022.04~2023.10)
@@ -206,7 +206,7 @@ subclass: 'post page portfolio-page'
 - 분산 시스템 트러블슈팅, 쿼리 최적화, 데이터 인제스천 파이프라인 설계
 - 영문 기술 커뮤니케이션 및 글로벌 서비스 팀 협업
 
-## 6.2 CJ 올리브 네트웍스 (2019.07.01 ~ 2022.04.30) (2년 10개월, 하이브리드 근무)
+## CJ 올리브 네트웍스 (2019.07.01 ~ 2022.04.30) (2년 10개월, 하이브리드 근무)
 - 회사소개 : Digital Experience와 신기술 기반 고객 비즈니스 가치를 창출하는 Intelligent ICT 전문기업
 - 데이터플랫폼파트, Data Platform Senior Engineer
 
@@ -255,7 +255,7 @@ subclass: 'post page portfolio-page'
 ### 이직 사유
 - 글로벌 클라우드 서비스 회사(AWS)로의 커리어 전환
 
-## 6.3 G.Bike (2018.06-2019.06)
+## G.Bike (2018.06-2019.06)
 - 회사소개 : 현재 자동차 중심의 환경인 한국에서 녹색 도시 이동성을 혁신하는 이동 공유 기업이다. 
 - 개발팀, SW Engineer, Manager
 
@@ -346,7 +346,7 @@ subclass: 'post page portfolio-page'
   <a href="/assets/portfolio/주차금지구역2.png"><img src="/assets/portfolio/주차금지구역2.png" alt="지빌리티 주차 금지 구역 화면 2"></a>
 </div>
 
-## 6.4 팀노바 (2017.07-2018.03) (9개월)
+## 팀노바 (2017.07-2018.03) (9개월)
 - 회사소개 : 여행 플랫폼을 개발중인 벤처회사. 
 - 개발팀, 개발파트장
 
@@ -389,7 +389,7 @@ subclass: 'post page portfolio-page'
   <a href="/assets/portfolio/image015.png"><img src="/assets/portfolio/image015.png" alt="포피스 iOS 화면 6"></a>
 </div>
 
-## 6.5 ㈜디오텍 (2013년 05월 ~ 2015년 05월) (2년 1개월)
+## ㈜디오텍 (2013년 05월 ~ 2015년 05월) (2년 1개월)
 회사소개 : 1999년 3월 31일에 설립된 시스템 소프트웨어 개발 및 공급업 업종의 소프트웨어(필기인식, 전자사전, 모바일OCR) 개발, 공급 사업을 하는 코스닥 기업. 자본금은 110억 2,797만원 매출액은 178억 2,470만원 사원수는 142명.
 개발팀, 대리
 
@@ -403,7 +403,7 @@ subclass: 'post page portfolio-page'
 
 - 이직 또는 퇴직 사유 : 전문연구요원 군 복무 만료 이후 자기 역량 계발
 
-## 6.6 ㈜디지탈아리아 (2011년 12월 ~ 2013년 04월) (1년 5개월)
+## ㈜디지탈아리아 (2011년 12월 ~ 2013년 04월) (1년 5개월)
 회사소개 : 2000년 6월 7일에 설립된 시스템 소프트웨어 개발 및 공급업 업종의 전자부품 제조/소프트웨어(임베디드디바이스용 미들웨어, GUI 프레임워크) 개발, 판매, 기술용역 사업을 하는 코스닥 기업. 자본금은 115억 6,847만원 매출액은 144억 9,692만원 사원수는 88명.
 개발팀, 연구원
 
@@ -428,9 +428,9 @@ subclass: 'post page portfolio-page'
 
 ----------
 
-<h1 id="사이드프로젝트기술서">7. 사이드프로젝트 기술서</h1> 
+<h1 id="사이드프로젝트기술서">사이드프로젝트 기술서</h1> 
 
-## 7.1 [claude-resume](https://github.com/ytkim4558/claude-resume) — LLM 요약 기반 Claude Code 세션 피커 (2026.05)
+## [claude-resume](https://github.com/ytkim4558/claude-resume) — LLM 요약 기반 Claude Code 세션 피커 (2026.05)
 ### 기간 : 2026.05.16 ~ 2026.05.17 (2일)
 ### Claude Code (Anthropic) 의 과거 대화 히스토리를 LLM 요약으로 빠르게 찾고 이어갈 수 있는 두-패널 인터랙티브 TUI 도구
 
@@ -454,7 +454,7 @@ subclass: 'post page portfolio-page'
 - [코드 리포](https://github.com/ytkim4558/claude-resume)
 - [상세 설계 문서](https://github.com/ytkim4558/claude-toolkit/blob/main/docs/tools/claude-resume.md)
 
-## 7.2 [claude-toolkit](https://github.com/ytkim4558/claude-toolkit) — Claude Code 워크플로 스킬 모음 (2026.05~)
+## [claude-toolkit](https://github.com/ytkim4558/claude-toolkit) — Claude Code 워크플로 스킬 모음 (2026.05~)
 ### 반복되는 작업을 Claude Code 의 자체 스킬로 묶어 재사용 가능하게 만든 도구 모음
 
 ### 포함된 스킬
@@ -471,7 +471,7 @@ subclass: 'post page portfolio-page'
 ### 링크
 - [코드 리포 + 위키](https://github.com/ytkim4558/claude-toolkit)
 
-## 7.3 [codex-resume](https://github.com/ytkim4558/codex-resume) — OpenAI Codex CLI 세션 검색/재개 도구 (2026.05)
+## [codex-resume](https://github.com/ytkim4558/codex-resume) — OpenAI Codex CLI 세션 검색/재개 도구 (2026.05)
 ### 기간 : 2026.05.17
 ### OpenAI Codex CLI 의 로컬 세션 로그를 검색하고 선택한 세션으로 이어갈 수 있게 만든 Windows 친화형 도구
 
@@ -494,7 +494,7 @@ subclass: 'post page portfolio-page'
 - [코드 리포](https://github.com/ytkim4558/codex-resume)
 - [상세 설계 문서](https://github.com/ytkim4558/claude-toolkit/blob/main/docs/tools/codex-resume.md)
 
-## 7.4 초기 안드로이드 사이드 프로젝트 (2016 ~ 2017)
+## 초기 안드로이드 사이드 프로젝트 (2016 ~ 2017)
 
 <details class="lazy-details">
 <summary>▶ 자세히 보기 — HotDealppom, BikeNavi, 그룹주소록 (시연 영상 + 스크린샷, 펼칠 때 로딩)</summary>
@@ -561,7 +561,7 @@ subclass: 'post page portfolio-page'
 
 ----------
 
-<h1 id="자격사항">8. 자격 사항</h1>
+<h1 id="자격사항">자격 사항</h1>
 
 - **AWS Certified Solutions Architect – Associate** (Amazon Web Services, 발행 2026.02 · 만료 2029.02)
 - **Amazon OpenSearch Service (formerly Amazon Elasticsearch Service) Subject Matter Expert** (Amazon Web Services, 2023.05)
@@ -572,7 +572,7 @@ subclass: 'post page portfolio-page'
 
 ----------
 
-<h1 id="언어및병역사항">9. 언어 및 병역 사항</h1>
+<h1 id="언어및병역사항">언어 및 병역 사항</h1>
 
 - 한국어 : 원어민 (Native)
 - 영어 : Professional Working — TOEIC 755 (2010.03), OPIC IM1 (2022.02), 듀오링고 중급 (2016.03)
@@ -581,13 +581,13 @@ subclass: 'post page portfolio-page'
 
 ----------
 
-<h1 id="수상경력">10. 수상 경력</h1>
+<h1 id="수상경력">수상 경력</h1>
 
 - 장려상, 알고리즘 구현, 한국산업기술대학교, 2008.11.20
 
 ----------
 
-<h1 id="학력">11. 학력</h1>
+<h1 id="학력">학력</h1>
 
 - **한양대학교 대학원 컴퓨터공학과 석사 4.14/4.50** (2010년 3월 ~ 2012년 2월)
   - 국방과학연구소 프로젝트 참여 : "클러터 환경에서 장애물에 의한 가림표적 추적 및 다중 표적 추적기법 연구", "적외선 대역의 비균질 클러터 환경 분리/추적 기법 연구"
@@ -598,13 +598,13 @@ subclass: 'post page portfolio-page'
 
 ----------
 
-<h1 id="학술및연구활동">12. 학술 및 연구활동</h1>
+<h1 id="학술및연구활동">학술 및 연구활동</h1>
 
-## 12.1 연구활동
+## 연구활동
 - "클러터 환경에서 장애물에 의한 가림표적 추적 및 다중 표적 추적기법 연구", 국방과학 연구소, 2010.08.01 ~ 2012.12.31
 - "적외선 대역의 비균질 클러터 환경 분리/추적 기법 연구”, 국방과학 연구소, 2009.06.15 ~ 2011.12.31
 
-## 12.2 학술활동
+## 학술활동
 - "Target Segmentation Using 2D Histogram In Infrared Images", International Technical Conference on Circuits/Systems, Computers and Communications (ITC-CSCC), pp. 418-419, July 2010. 
 - "스테레오 영상의 효율적인 특징점 정합", 대한전자공학회 신호처리합동학술대회, Vol.24, pp.459-461, 2011.9 
 - "스테레오 영상에서의 개선된 특징 정합 기법", 대한전자공학회 하계종합학술대회, Vol.34, pp.970-973, 2011.6 
@@ -612,17 +612,17 @@ subclass: 'post page portfolio-page'
 - "고주파 증폭을 이용한 영상의 해상도 향상 기법", 대한전자공학회 하계학술대회, 제33권 1호, pp.443-444, 2010.6 
 - "삼각형의 닮음 조건에 기반한 특징점 정합", 한국정보기술학회논문지, ISSN 1598-8619, 제8권 제12호, pp.91-100, 2010.12 
 
-## 12.3 특허
+## 특허
 - 특허명: 정합쌍 분류장치 및 방법(출원번호:10-2010-0136555, 출원등록
 - 특허명: 문자 인식 장치 및 방법 (출원번호: 10-2014-0088574)
 
-## 12.4 프로그램
+## 프로그램
 - 소프트웨어명: 스테레오 매칭 프로그램 (출원번호: 2011-01-121-007638)
 - 소프트웨어명: 삼각형 닮음에 기반한 특징점 정합 프로그램 (출원번호: 2010-01-163-007452)
 
 ----------
 
-<h1 id="자기소개서">13. 자기소개서</h1>
+<h1 id="자기소개서">자기소개서</h1>
 
 AWS Cloud Support Engineer II 로서 클라우드 분석과 고객 솔루션을 중심으로,
 IT 업계에서 10년 이상의 다양한 개발·플랫폼 경험을 보유하고 있습니다.
@@ -647,7 +647,7 @@ IBM Cloud Pak for Data 를 OpenShift 환경에 통합하는 엔터프라이즈�
 
 ----------
 
-## 13.1 업무의 경험을 쌓다
+## 업무의 경험을 쌓다
 - 병역특례 전문연구요원으로 (주)디지탈아리아 입사
 - 엔진 코어 개발팀에서 Jira, Svn, 라이브러리 포팅 및 버그 수정 경험
 - 국책과제 TF팀에서 한국콘텐츠진흥원에서 주관하는 "상황인지 기반 스마트 3D입체 GUI 기술 개발" 프로젝트의 PM 담당
@@ -656,19 +656,19 @@ IBM Cloud Pak for Data 를 OpenShift 환경에 통합하는 엔터프라이즈�
 - 기존 컬러 향상 시 생기는 색상 왜곡 현상을 제거하기 위한 새로운 컬러부스트 알고리즘을 개발
 - 기존 디더링 알고리즘 튜닝
 
-## 13.2 풀 스택 개발자 및 빅데이터 전문가에 도전하다
+## 풀 스택 개발자 및 빅데이터 전문가에 도전하다
 - 서버나 빅데이터, DB 분야를 공부하기 위해, 1년여간 안드로이드, PHP, 빅데이터를 이용한 프로젝트를 직접 기획 및 작품 제작. 
 
-## 13.3 iOS 세계에 도전하다
+## iOS 세계에 도전하다
 - 팀노바에 입사 후 플레이스토어에 런칭 준비중이던 여행 도우미 안드로이드 어플인 포피스의 개발 및 버그 수정 
 - 포피스 iOS 팀이 신설되고 그 팀을 리딩하면서 직접 개발 진행.
 
-## 13.4 모빌리티 백엔드와 빅데이터로 확장하다
+## 모빌리티 백엔드와 빅데이터로 확장하다
 - 지바이크에서 스쿠터 소셜 크라우드 펀딩 앱 (iOS/Android) 신규 개발, 백엔드 + 관리자웹까지 풀스택 운영
 - CJ 올리브 네트웍스에서 빅데이터 분석 플랫폼 구축 및 운영, IBM Cloud Pak for Data + OpenShift 기반의 엔터프라이즈 분석 플랫폼 마이그레이션 주도
 - Solr, MongoDB, Redis, Impala, Hive, RabbitMQ 등 빅데이터 서비스 생태계 다수 경험
 
-## 13.5 글로벌 클라우드 엔지니어로 진화하다
+## 글로벌 클라우드 엔지니어로 진화하다
 - 2022년 4월 Amazon Web Services 입사, Cloud Support Engineer (Analytics) 시작
 - 2023년 5월 AWS Certified OpenSearch Subject Matter Expert 인정
 - 2023년 10월 Cloud Support Engineer II 승급
