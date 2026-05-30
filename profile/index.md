@@ -39,6 +39,7 @@ subclass: 'post page profile-page'
       <button type="button" data-profile-question="OpenSearch와 AWS Support 경험을 요약해줘">OpenSearch 경험</button>
       <button type="button" data-profile-question="AI workflow와 MCP 자동화 경험이 뭐야?">AI workflow</button>
       <button type="button" data-profile-question="대표 프로젝트를 알려줘">대표 프로젝트</button>
+      <button type="button" data-profile-question="대학과 학력을 알려줘">학력</button>
     </div>
     <label for="profile-question">Question</label>
     <textarea id="profile-question" rows="3" placeholder="예: 어떤 사람인지 짧게 설명해줘"></textarea>
