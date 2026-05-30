@@ -1,8 +1,8 @@
 <nav class="site-nav">
     <div class="site-nav-left">
-        {% if page.navigation %}
+        {% unless page.navigation == false %}
             {% include navigation.html %}
-        {% endif %}
+        {% endunless %}
     </div>
     <div class="site-nav-right">
         {% assign ko_url = '/' %}
