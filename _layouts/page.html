@@ -23,7 +23,7 @@ into the {body} of the default.hbs template -->
 
         <article class="post-full {{ page.subclass }} {% unless page.cover %}no-image{% endunless %}">
 
-            {% unless page.subclass contains 'profile-page' %}
+            {% unless page.subclass contains 'profile-page' or page.subclass contains 'portfolio-page' %}
             {% if page.cover %}
             <figure class="post-full-image" style="background-image: url({{ site.baseurl }}{{ page.cover }})">
             </figure>
