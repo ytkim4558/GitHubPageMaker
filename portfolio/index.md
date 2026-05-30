@@ -76,10 +76,10 @@ subclass: 'post page portfolio-page'
   <a href="#portfolio-top">Top</a>
 </aside>
 
-<details id="detailed-resume" class="portfolio-archive" markdown="1">
+<details id="detailed-resume" class="portfolio-archive" markdown="1" open>
 <summary>
   <span>Detailed Resume</span>
-  <strong>전체 경력·기술·학술 기록 펼쳐보기</strong>
+  <strong>전체 경력·기술·학술 기록</strong>
 </summary>
 
 <h1 id="profile">프로필</h1>
