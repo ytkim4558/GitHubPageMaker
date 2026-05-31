@@ -1,5 +1,7 @@
 ## Jasper2
 
+> **Deprecated source warning:** This repository is no longer the canonical source for the live technical blog. New blog, portfolio, and AI Workflow content must be written in `C:\Users\ytkim\projects\ytkim-astro-site` (`ytkim4558/ytkim4558.github.io`, Astro + Cloudflare Pages). This repository is kept only as a legacy Jekyll/Jasper2 archive.
+
 > AI agents: read [`AGENTS.md`](AGENTS.md) first. It defines the source/publish repo split, Docker Jekyll build command, cover/linking rules, and cross-agent handoff rules for Claude, ChatGPT, Codex, other accounts, and later sessions.
 
 [![Build Status](https://travis-ci.org/jekyller/jasper2.svg?branch=master)](https://travis-ci.org/jekyller/jasper2)

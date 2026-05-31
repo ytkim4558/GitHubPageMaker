@@ -6,6 +6,14 @@ FILE_STEERING=".kiro/steering.md"
 # 스테이징된 파일이 무엇인지 감지
 STAGED_AGENTS=$(git diff --cached --name-only | grep -x "$FILE_AGENTS")
 STAGED_STEERING=$(git diff --cached --name-only | grep -x "$FILE_STEERING")
+STAGED_LEGACY_POSTS=$(git diff --cached --name-only --diff-filter=AMR | grep '^_posts/.*\.md$')
+
+if [ -n "$STAGED_LEGACY_POSTS" ] && [ "$ALLOW_LEGACY_POSTS" != "1" ]; then
+    echo "ERROR: This repository is deprecated for live blog posts."
+    echo "Write new posts in C:/Users/ytkim/projects/ytkim-astro-site/src/content/posts instead."
+    echo "If this is an intentional legacy archive edit, rerun with ALLOW_LEGACY_POSTS=1."
+    exit 1
+fi
 
 # AGENTS.md만 커밋하려는 경우 -> steering.md에 덮어쓰고 같이 커밋
 if [ -n "$STAGED_AGENTS" ] && [ -z "$STAGED_STEERING" ]; then
